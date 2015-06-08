@@ -1,6 +1,6 @@
 Block SPINFO
      1   FlexibleSUSY
-     2   1.1.0
+     2   1.1.1
      4   Problems: tachyon hh,
 Block MODSEL                 # Select model
     6   0                    # flavour violation
