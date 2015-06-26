@@ -1,6 +1,6 @@
 Block SPINFO
      1   FlexibleSUSY
-     2   1.1.1
+     2   1.2.0
 Block MODSEL     #
     1 0          #  1/0: High/low scale input
     2 1          # Boundary Condition
@@ -17,7 +17,7 @@ Block FlexibleSUSY
     7   2                    # threshold corrections loop order
     8   1                    # Higgs 2-loop corrections O(alpha_t alpha_s)
     9   1                    # Higgs 2-loop corrections O(alpha_b alpha_s)
-   10   1                    # Higgs 2-loop corrections O(alpha_t^2 + alpha_t alpha_b + alpha_b^2)
+   10   1                    # Higgs 2-loop corrections O((alpha_t + alpha_b)^2)
    11   1                    # Higgs 2-loop corrections O(alpha_tau^2)
    12   0                    # force output
    13   1                    # Top quark 2-loop corrections QCD
@@ -282,17 +282,17 @@ Block NMSSMRUN Q= 1.00000000E+03
      5     1.00000000E+00   # vS
 Block MASS
         24     8.04040000E+01   # VWm
-   1000021     1.97436712E+03   # Glu
-   3000022     3.31351014E+03   # sigmaO
-   3000021     5.19426968E+03   # phiO
+       404     3.36529772E+02   # SRdp
+       403     3.45580420E+02   # SRum
+   1000021     2.22452739E+03   # Glu
+   3000022     3.37189787E+03   # sigmaO
+   3000021     5.19249444E+03   # phiO
    2000024     1.05617718E+02   # Cha2(1)
    2000037     2.81696168E+02   # Cha2(2)
    1000024     1.09149924E+02   # Cha1(1)
    1000037     2.56512409E+02   # Cha1(2)
        401     3.35788938E+02   # Rh(1)
        402     3.44155472E+02   # Rh(2)
-       403     3.36529772E+02   # Rpm(1)
-       404     3.45580420E+02   # Rpm(2)
    1000012     3.16755086E+03   # Sv(1)
    1000014     3.16755095E+03   # Sv(2)
    1000016     3.16757692E+03   # Sv(3)
@@ -512,11 +512,6 @@ Block CHARGEMIX
   4  2     9.08728690E-03   # ZP(4,2)
   4  3     7.88809911E-01   # ZP(4,3)
   4  4     6.14564095E-01   # ZP(4,4)
-Block RPMIX
-  1  1     0.00000000E+00   # ZRP(1,1)
-  1  2     1.00000000E+00   # ZRP(1,2)
-  2  1     1.00000000E+00   # ZRP(2,1)
-  2  2     0.00000000E+00   # ZRP(2,2)
 Block USQMIX
   1  1     0.00000000E+00   # ZU(1,1)
   1  2     0.00000000E+00   # ZU(1,2)
@@ -564,23 +559,3 @@ Block SNUMIX
   3  1     0.00000000E+00   # ZV(3,1)
   3  2     0.00000000E+00   # ZV(3,2)
   3  3     1.00000000E+00   # ZV(3,3)
-Block VCKM Q= 1.00000000E+03
-  1  1     1.00000000E+00   # Re(CKM)(1,1)
-  1  2     0.00000000E+00   # Re(CKM)(1,2)
-  1  3     0.00000000E+00   # Re(CKM)(1,3)
-  2  1     0.00000000E+00   # Re(CKM)(2,1)
-  2  2     1.00000000E+00   # Re(CKM)(2,2)
-  2  3     0.00000000E+00   # Re(CKM)(2,3)
-  3  1     0.00000000E+00   # Re(CKM)(3,1)
-  3  2     0.00000000E+00   # Re(CKM)(3,2)
-  3  3     1.00000000E+00   # Re(CKM)(3,3)
-Block IMVCKM Q= 1.00000000E+03
-  1  1     0.00000000E+00   # Im(CKM)(1,1)
-  1  2     0.00000000E+00   # Im(CKM)(1,2)
-  1  3     0.00000000E+00   # Im(CKM)(1,3)
-  2  1     0.00000000E+00   # Im(CKM)(2,1)
-  2  2     0.00000000E+00   # Im(CKM)(2,2)
-  2  3     0.00000000E+00   # Im(CKM)(2,3)
-  3  1     0.00000000E+00   # Im(CKM)(3,1)
-  3  2     0.00000000E+00   # Im(CKM)(3,2)
-  3  3     0.00000000E+00   # Im(CKM)(3,3)

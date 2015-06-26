@@ -1,6 +1,6 @@
 Block SPINFO
      1   FlexibleSUSY
-     2   1.1.1
+     2   1.2.0
 Block MODSEL                 # Select model
     6   0                    # flavour violation
 #   12    1000                # DRbar parameter output scale (GeV)
@@ -15,7 +15,7 @@ Block FlexibleSUSY
     7   2                    # threshold corrections loop order
     8   1                    # Higgs 2-loop corrections O(alpha_t alpha_s)
     9   1                    # Higgs 2-loop corrections O(alpha_b alpha_s)
-   10   1                    # Higgs 2-loop corrections O(alpha_t^2 + alpha_t alpha_b + alpha_b^2)
+   10   1                    # Higgs 2-loop corrections O((alpha_t + alpha_b)^2)
    11   1                    # Higgs 2-loop corrections O(alpha_tau^2)
    12   0                    # force output
    13   1                    # Top quark 2-loop corrections QCD
@@ -260,7 +260,7 @@ Block MASS
    1000094     9.95728821E+03   # ChiP(2)
    1000024     5.41768555E+02   # Cha(1)
    1000037     6.86598241E+02   # Cha(2)
-        37     1.75940953E+03   # Hpm(2)
+        37     1.75940929E+03   # Hpm(2)
         92     1.01075218E+04   # SHp0(1)
         94     1.03096647E+04   # SHp0(2)
         91     1.00982335E+04   # SHpp(1)
@@ -596,10 +596,10 @@ Block ZNPMIX
   2  1     7.07106781E-01   # Re(ZNp(2,1))
   2  2    -7.07106781E-01   # Re(ZNp(2,2))
 Block CHARGEMIX
-  1  1    -1.66968342E-01   # ZP(1,1)
-  1  2     9.85962257E-01   # ZP(1,2)
-  2  1     9.85962257E-01   # ZP(2,1)
-  2  2     1.66968342E-01   # ZP(2,2)
+  1  1    -1.66968373E-01   # ZP(1,1)
+  1  2     9.85962252E-01   # ZP(1,2)
+  2  1     9.85962252E-01   # ZP(2,1)
+  2  2     1.66968373E-01   # ZP(2,2)
 Block ESIXZPI
   1  1     0.00000000E+00   # Re(ZPI(1,1))
   1  2     1.00000000E+00   # Re(ZPI(1,2))

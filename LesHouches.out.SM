@@ -1,6 +1,6 @@
 Block SPINFO
      1   FlexibleSUSY
-     2   1.1.1
+     2   1.2.0
 Block MODSEL                 # Select model
 #   12    1000                # parameter output scale (GeV)
 Block FlexibleSUSY
@@ -9,12 +9,12 @@ Block FlexibleSUSY
     2   0                    # algorithm (0 = two_scale, 1 = lattice)
     3   1                    # calculate SM pole masses
     4   2                    # pole mass loop order
-    5   1                    # EWSB loop order
-    6   2                    # beta-functions loop order
+    5   2                    # EWSB loop order
+    6   3                    # beta-functions loop order
     7   2                    # threshold corrections loop order
-    8   0                    # Higgs 2-loop corrections O(alpha_t alpha_s)
+    8   1                    # Higgs 2-loop corrections O(alpha_t alpha_s)
     9   0                    # Higgs 2-loop corrections O(alpha_b alpha_s)
-   10   0                    # Higgs 2-loop corrections O(alpha_t^2 + alpha_t alpha_b + alpha_b^2)
+   10   1                    # Higgs 2-loop corrections O((alpha_t + alpha_b)^2)
    11   0                    # Higgs 2-loop corrections O(alpha_tau^2)
    12   0                    # force output
    13   1                    # Top quark 2-loop corrections QCD
@@ -38,64 +38,66 @@ Block SMINPUTS
     23     1.04230487E-01   # ms
     24     1.27183378E+00   # mc
 Block MINPAR
-     1     2.50000000E-01   # LambdaIN
-Block gauge Q= 2.46732795E+02
-     1     3.59253456E-01   # gY
-     2     6.45839207E-01   # g2
-     3     1.13731441E+00   # g3
-Block Yu Q= 2.46732795E+02
-  1  1     7.38679302E-06   # Yu(1,1)
+     1     2.00000000E-01   # LambdaIN
+Block EXTPAR
+     0     1.00000000E+03   # Qin
+Block gauge Q= 1.00000000E+03
+     1     3.62147974E-01   # gY
+     2     6.38672227E-01   # g2
+     3     1.05375636E+00   # g3
+Block Yu Q= 1.00000000E+03
+  1  1     6.81019984E-06   # Yu(1,1)
   1  2     0.00000000E+00   # Yu(1,2)
   1  3     0.00000000E+00   # Yu(1,3)
   2  1     0.00000000E+00   # Yu(2,1)
-  2  2     3.37614167E-03   # Yu(2,2)
+  2  2     3.11260960E-03   # Yu(2,2)
   2  3     0.00000000E+00   # Yu(2,3)
   3  1     0.00000000E+00   # Yu(3,1)
   3  2     0.00000000E+00   # Yu(3,2)
-  3  3     9.21491970E-01   # Yu(3,3)
-Block Yd Q= 2.46732795E+02
-  1  1     1.46998130E-05   # Yd(1,1)
+  3  3     8.58798705E-01   # Yu(3,3)
+Block Yd Q= 1.00000000E+03
+  1  1     1.35680383E-05   # Yd(1,1)
   1  2     0.00000000E+00   # Yd(1,2)
   1  3     0.00000000E+00   # Yd(1,3)
   2  1     0.00000000E+00   # Yd(2,1)
-  2  2     3.21848498E-04   # Yd(2,2)
+  2  2     2.97068548E-04   # Yd(2,2)
   2  3     0.00000000E+00   # Yd(2,3)
   3  1     0.00000000E+00   # Yd(3,1)
   3  2     0.00000000E+00   # Yd(3,2)
-  3  3     1.52551950E-02   # Yd(3,3)
-Block Ye Q= 2.46732795E+02
-  1  1     2.88341053E-06   # Ye(1,1)
+  3  3     1.39249051E-02   # Yd(3,3)
+Block Ye Q= 1.00000000E+03
+  1  1     2.91057652E-06   # Ye(1,1)
   1  2     0.00000000E+00   # Ye(1,2)
   1  3     0.00000000E+00   # Ye(1,3)
   2  1     0.00000000E+00   # Ye(2,1)
-  2  2     5.96197789E-04   # Ye(2,2)
+  2  2     6.01814858E-04   # Ye(2,2)
   2  3     0.00000000E+00   # Ye(2,3)
   3  1     0.00000000E+00   # Ye(3,1)
   3  2     0.00000000E+00   # Ye(3,2)
-  3  3     1.00477987E-02   # Ye(3,3)
-Block SM Q= 2.46732795E+02
-     1     8.90404722E+03   # mu2
-     2     2.50002228E-01   # Lambdax
-Block HMIX Q= 2.46732795E+02
-     3     2.46734330E+02   # v
+  3  3     1.01424775E-02   # Ye(3,3)
+Block SM Q= 1.00000000E+03
+     1     8.50677595E+03   # mu2
+     2     2.00002159E-01   # Lambdax
+Block HMIX Q= 1.00000000E+03
+     3     2.44332241E+02   # v
 Block MASS
-        24     8.04135708E+01   # VWp
+        24     8.04139587E+01   # VWp
         21     0.00000000E+00   # VG
         12     0.00000000E+00   # Fv(1)
         14     0.00000000E+00   # Fv(2)
         16     0.00000000E+00   # Fv(3)
-        25     1.27733630E+02   # hh
+        25     1.26213963E+02   # hh
         22     0.00000000E+00   # VP
-        23     9.12541366E+01   # VZ
-         1     4.58014185E-03   # Fd(1)
-         3     8.88528210E-02   # Fd(2)
-         5     3.55051347E+00   # Fd(3)
-         2     2.37972615E-03   # Fu(1)
-         4     8.45245910E-01   # Fu(2)
-         6     1.73767068E+02   # Fu(3)
-        11     5.26420218E-04   # Fe(1)
-        13     1.06770095E-01   # Fe(2)
-        15     1.78086936E+00   # Fe(3)
+        23     9.10303897E+01   # VZ
+         1     4.11460773E-03   # Fd(1)
+         3     8.11113477E-02   # Fd(2)
+         5     3.31500828E+00   # Fd(3)
+         2     2.13080114E-03   # Fu(1)
+         4     7.83083494E-01   # Fu(2)
+         6     1.73402766E+02   # Fu(3)
+        11     5.26632272E-04   # Fe(1)
+        13     1.06800515E-01   # Fe(2)
+        15     1.78126200E+00   # Fe(3)
 Block UULMIX
   1  1     1.00000000E+00   # Re(Vu(1,1))
   1  2     0.00000000E+00   # Re(Vu(1,2))

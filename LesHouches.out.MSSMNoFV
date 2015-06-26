@@ -1,6 +1,6 @@
 Block SPINFO
      1   FlexibleSUSY
-     2   1.1.1
+     2   1.2.0
 Block MODSEL                 # Select model
 #   12    1000                # DRbar parameter output scale (GeV)
 Block FlexibleSUSY
@@ -14,7 +14,7 @@ Block FlexibleSUSY
     7   2                    # threshold corrections loop order
     8   1                    # Higgs 2-loop corrections O(alpha_t alpha_s)
     9   1                    # Higgs 2-loop corrections O(alpha_b alpha_s)
-   10   1                    # Higgs 2-loop corrections O(alpha_t^2 + alpha_t alpha_b + alpha_b^2)
+   10   1                    # Higgs 2-loop corrections O((alpha_t + alpha_b)^2)
    11   1                    # Higgs 2-loop corrections O(alpha_tau^2)
    12   0                    # force output
    13   1                    # Top quark 2-loop corrections QCD
@@ -304,21 +304,21 @@ Block MSOFT Q= 8.66360379E+02
      3     1.10300877E+03   # MassG
     21     1.08315640E+05   # mHd2
     22    -3.70597212E+05   # mHu2
-    31     3.51653258E+02   # Sqrt(ml2(0,0))
-    32     3.51646284E+02   # Sqrt(ml2(1,1))
-    33     3.50674223E+02   # Sqrt(ml2(2,2))
-    34     2.21215037E+02   # Sqrt(me2(0,0))
-    35     2.21192429E+02   # Sqrt(me2(1,1))
-    36     2.18022142E+02   # Sqrt(me2(2,2))
-    41     1.00711403E+03   # Sqrt(mq2(0,0))
-    42     1.00711149E+03   # Sqrt(mq2(1,1))
-    43     9.29083096E+02   # Sqrt(mq2(2,2))
-    44     9.69369660E+02   # Sqrt(mu2(0,0))
-    45     9.69366965E+02   # Sqrt(mu2(1,1))
-    46     7.99712943E+02   # Sqrt(mu2(2,2))
-    47     9.64756473E+02   # Sqrt(md2(0,0))
-    48     9.64753818E+02   # Sqrt(md2(1,1))
-    49     9.60016201E+02   # Sqrt(md2(2,2))
+    31     3.51653258E+02   # SignedAbsSqrt(ml2(0,0))
+    32     3.51646284E+02   # SignedAbsSqrt(ml2(1,1))
+    33     3.50674223E+02   # SignedAbsSqrt(ml2(2,2))
+    34     2.21215037E+02   # SignedAbsSqrt(me2(0,0))
+    35     2.21192429E+02   # SignedAbsSqrt(me2(1,1))
+    36     2.18022142E+02   # SignedAbsSqrt(me2(2,2))
+    41     1.00711403E+03   # SignedAbsSqrt(mq2(0,0))
+    42     1.00711149E+03   # SignedAbsSqrt(mq2(1,1))
+    43     9.29083096E+02   # SignedAbsSqrt(mq2(2,2))
+    44     9.69369660E+02   # SignedAbsSqrt(mu2(0,0))
+    45     9.69366965E+02   # SignedAbsSqrt(mu2(1,1))
+    46     7.99712943E+02   # SignedAbsSqrt(mu2(2,2))
+    47     9.64756473E+02   # SignedAbsSqrt(md2(0,0))
+    48     9.64753818E+02   # SignedAbsSqrt(md2(1,1))
+    49     9.60016201E+02   # SignedAbsSqrt(md2(2,2))
 Block MASS Q= 8.66360379E+02
  1000021     1.13614087E+03   # Pole(MGlu)
  1000012     3.50280760E+02   # Pole(MSveL)

@@ -1,6 +1,6 @@
 Block SPINFO
      1   FlexibleSUSY
-     2   1.1.1
+     2   1.2.0
 Block MODSEL                 # Select model
 #   12    1000                # DRbar parameter output scale (GeV)
 Block FlexibleSUSY
@@ -14,7 +14,7 @@ Block FlexibleSUSY
     7   2                    # threshold corrections loop order
     8   1                    # Higgs 2-loop corrections O(alpha_t alpha_s)
     9   1                    # Higgs 2-loop corrections O(alpha_b alpha_s)
-   10   1                    # Higgs 2-loop corrections O(alpha_t^2 + alpha_t alpha_b + alpha_b^2)
+   10   1                    # Higgs 2-loop corrections O((alpha_t + alpha_b)^2)
    11   1                    # Higgs 2-loop corrections O(alpha_tau^2)
    12   0                    # force output
    13   1                    # Top quark 2-loop corrections QCD
@@ -230,8 +230,8 @@ Block MASS
    1000037     1.66901611E+03   # Cha(2)
         25     1.19822640E+02   # hh(1)
         35     1.66471319E+03   # hh(2)
-        37     1.66677262E+03   # Hpm(2)
-        36     1.66463743E+03   # Ah(2)
+        37     1.66677254E+03   # Hpm(2)
+        36     1.66463536E+03   # Ah(2)
    1000012     4.17046871E+02   # Sv(1)
    1000014     4.23675490E+02   # Sv(2)
    1000016     4.23698957E+02   # Sv(3)
@@ -268,10 +268,10 @@ Block VMIX
   2  1     1.90552716E-02   # Re(UP(2,1))
   2  2     9.99818432E-01   # Re(UP(2,2))
 Block PSEUDOSCALARMIX
-  1  1    -1.01234291E-01   # ZA(1,1)
-  1  2     9.94862613E-01   # ZA(1,2)
-  2  1     9.94862613E-01   # ZA(2,1)
-  2  2     1.01234291E-01   # ZA(2,2)
+  1  1    -1.01234552E-01   # ZA(1,1)
+  1  2     9.94862586E-01   # ZA(1,2)
+  2  1     9.94862586E-01   # ZA(2,1)
+  2  2     1.01234552E-01   # ZA(2,2)
 Block DSQMIX
   1  1    -0.00000000E+00   # ZD(1,1)
   1  2    -0.00000000E+00   # ZD(1,2)
@@ -369,10 +369,10 @@ Block NMIX
   4  3    -7.05681258E-01   # Re(ZN(4,3))
   4  4     7.06820384E-01   # Re(ZN(4,4))
 Block CHARGEMIX
-  1  1    -1.01672279E-01   # ZP(1,1)
-  1  2     9.94817947E-01   # ZP(1,2)
-  2  1     9.94817947E-01   # ZP(2,1)
-  2  2     1.01672279E-01   # ZP(2,2)
+  1  1    -1.01672287E-01   # ZP(1,1)
+  1  2     9.94817946E-01   # ZP(1,2)
+  2  1     9.94817946E-01   # ZP(2,1)
+  2  2     1.01672287E-01   # ZP(2,2)
 Block USQMIX
   1  1     0.00000000E+00   # ZU(1,1)
   1  2     0.00000000E+00   # ZU(1,2)
@@ -452,18 +452,18 @@ Block MSOFT Q= 2.11866604E+03
      3     2.58135842E+03   # MassG
     21    -5.02063443E+04   # mHd2
     22    -2.64307056E+06   # mHu2
-    31     4.28255623E+02   # Sqrt(ml2(0,0))
-    32     4.28236402E+02   # Sqrt(ml2(1,1))
-    33     4.22772838E+02   # Sqrt(ml2(2,2))
-    34     1.50006238E+02   # Sqrt(me2(0,0))
-    35     1.49895201E+02   # Sqrt(me2(1,1))
-    36     1.14284715E+02   # Sqrt(me2(2,2))
-    41     2.46616830E+03   # Sqrt(mq2(0,0))
-    42     2.46614539E+03   # Sqrt(mq2(1,1))
-    43     2.24267294E+03   # Sqrt(mq2(2,2))
-    44     2.45517526E+03   # Sqrt(mu2(0,0))
-    45     2.45515248E+03   # Sqrt(mu2(1,1))
-    46     1.99719965E+03   # Sqrt(mu2(2,2))
-    47     2.44909240E+03   # Sqrt(md2(0,0))
-    48     2.44906868E+03   # Sqrt(md2(1,1))
-    49     2.42812441E+03   # Sqrt(md2(2,2))
+    31     4.28255623E+02   # SignedAbsSqrt(ml2(0,0))
+    32     4.28236402E+02   # SignedAbsSqrt(ml2(1,1))
+    33     4.22772838E+02   # SignedAbsSqrt(ml2(2,2))
+    34     1.50006238E+02   # SignedAbsSqrt(me2(0,0))
+    35     1.49895201E+02   # SignedAbsSqrt(me2(1,1))
+    36     1.14284715E+02   # SignedAbsSqrt(me2(2,2))
+    41     2.46616830E+03   # SignedAbsSqrt(mq2(0,0))
+    42     2.46614539E+03   # SignedAbsSqrt(mq2(1,1))
+    43     2.24267294E+03   # SignedAbsSqrt(mq2(2,2))
+    44     2.45517526E+03   # SignedAbsSqrt(mu2(0,0))
+    45     2.45515248E+03   # SignedAbsSqrt(mu2(1,1))
+    46     1.99719965E+03   # SignedAbsSqrt(mu2(2,2))
+    47     2.44909240E+03   # SignedAbsSqrt(md2(0,0))
+    48     2.44906868E+03   # SignedAbsSqrt(md2(1,1))
+    49     2.42812441E+03   # SignedAbsSqrt(md2(2,2))
