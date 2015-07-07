@@ -1,7 +1,9 @@
 Block SPINFO
      1   FlexibleSUSY
-     2   1.2.0
+     2   1.2.1
      3   Warnings: imprecise Mhh, imprecise MAh,
+     5   E6SSM
+     9   4.5.8
 Block MODSEL                 # Select model
     6   0                    # flavour violation
 #   12    1000                # DRbar parameter output scale (GeV)
@@ -324,11 +326,9 @@ Block MASS
    2000052     2.82091312E+03   # SDX(4)
    1000053     2.82091312E+03   # SDX(5)
    2000053     2.82091312E+03   # SDX(6)
-        21     0.00000000E+00   # VG
         12     0.00000000E+00   # Fv(1)
         14     0.00000000E+00   # Fv(2)
         16     0.00000000E+00   # Fv(3)
-        22     0.00000000E+00   # VP
         23     9.11108017E+01   # VZ
         11     5.18849445E-04   # Fe(1)
         13     1.05222040E-01   # Fe(2)
@@ -339,6 +339,8 @@ Block MASS
          2     2.35510793E-03   # Fu(1)
          4     8.60908852E-01   # Fu(2)
          6     1.77152614E+02   # Fu(3)
+        21     0.00000000E+00   # VG
+        22     0.00000000E+00   # VP
 Block INHMIX
   1  1    -9.99951727E-01   # UHI0(1,1)
   1  2    -0.00000000E+00   # UHI0(1,2)
