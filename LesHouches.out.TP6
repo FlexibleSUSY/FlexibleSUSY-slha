@@ -1,6 +1,6 @@
 Block SPINFO
      1   FlexibleSUSY
-     2   1.2.1
+     2   1.2.2
      5   lowNMSSM
      9   4.5.8
 Block FlexibleSUSY
@@ -477,47 +477,47 @@ Block FlexibleSUSYOutput Q= 1.50000000E+03
      1     1.50000000E+03   # SUSYScale
      2     9.11876000E+01   # LowScale
 Block ALPHA Q= 1.50000000E+03
-          -1.31294607E-01   # ArcSin(Pole(ZH(1,1)))
+          -1.31294607E-01   # ArcSin(Pole(ZH(2,2)))
 Block HMIX Q= 1.50000000E+03
      1     6.13996601E+02   # 0.7071067811865475*vS*Lambdax
      2     3.00001461E+00   # vu/vd
      3     2.40955042E+02   # Sqrt(Sqr(vd) + Sqr(vu))
-     4     1.98179767E+06   # Sqr(MAh(1))
+     4     1.98179767E+06   # Sqr(MAh(2))
    102     7.61963407E+01   # vd
    103     2.28590135E+02   # vu
 Block Au Q= 1.50000000E+03
-  1  1    -1.12795927E+02   # TYu(0,0)/Yu(0,0)
-  2  2    -1.12795788E+02   # TYu(1,1)/Yu(1,1)
-  3  3    -2.08035368E-02   # TYu(2,2)/Yu(2,2)
+  1  1    -1.12795927E+02   # TYu(1,1)/Yu(1,1)
+  2  2    -1.12795788E+02   # TYu(2,2)/Yu(2,2)
+  3  3    -2.08035368E-02   # TYu(3,3)/Yu(3,3)
 Block Ad Q= 1.50000000E+03
-  1  1    -8.89534305E+01   # TYd(0,0)/Yd(0,0)
-  2  2    -8.89533859E+01   # TYd(1,1)/Yd(1,1)
-  3  3    -3.17885810E-02   # TYd(2,2)/Yd(2,2)
+  1  1    -8.89534305E+01   # TYd(1,1)/Yd(1,1)
+  2  2    -8.89533859E+01   # TYd(2,2)/Yd(2,2)
+  3  3    -3.17885810E-02   # TYd(3,3)/Yd(3,3)
 Block Ae Q= 1.50000000E+03
-  1  1    -6.87794575E-01   # TYe(0,0)/Ye(0,0)
-  2  2    -6.88517036E-01   # TYe(1,1)/Ye(1,1)
-  3  3    -3.20765328E-03   # TYe(2,2)/Ye(2,2)
+  1  1    -6.87794575E-01   # TYe(1,1)/Ye(1,1)
+  2  2    -6.88517036E-01   # TYe(2,2)/Ye(2,2)
+  3  3    -3.20765328E-03   # TYe(3,3)/Ye(3,3)
 Block MSOFT Q= 1.50000000E+03
      1     1.99999967E+02   # MassB
      2     4.00000191E+02   # MassWB
      3     1.99999998E+03   # MassG
     21     1.29448563E+06   # mHd2
     22    -1.29984102E+05   # mHu2
-    31     1.50009999E+03   # SignedAbsSqrt(ml2(0,0))
-    32     1.50019999E+03   # SignedAbsSqrt(ml2(1,1))
-    33     1.50029998E+03   # SignedAbsSqrt(ml2(2,2))
-    34     1.50039999E+03   # SignedAbsSqrt(me2(0,0))
-    35     1.50049998E+03   # SignedAbsSqrt(me2(1,1))
-    36     1.50059997E+03   # SignedAbsSqrt(me2(2,2))
-    41     1.50069965E+03   # SignedAbsSqrt(mq2(0,0))
-    42     1.50079965E+03   # SignedAbsSqrt(mq2(1,1))
-    43     1.50089471E+03   # SignedAbsSqrt(mq2(2,2))
-    44     1.50000963E+03   # SignedAbsSqrt(mu2(0,0))
-    45     1.50001963E+03   # SignedAbsSqrt(mu2(1,1))
-    46     1.50001950E+03   # SignedAbsSqrt(mu2(2,2))
-    47     1.50003962E+03   # SignedAbsSqrt(md2(0,0))
-    48     1.50004962E+03   # SignedAbsSqrt(md2(1,1))
-    49     1.50005958E+03   # SignedAbsSqrt(md2(2,2))
+    31     1.50009999E+03   # SignedAbsSqrt(ml2(1,1))
+    32     1.50019999E+03   # SignedAbsSqrt(ml2(2,2))
+    33     1.50029998E+03   # SignedAbsSqrt(ml2(3,3))
+    34     1.50039999E+03   # SignedAbsSqrt(me2(1,1))
+    35     1.50049998E+03   # SignedAbsSqrt(me2(2,2))
+    36     1.50059997E+03   # SignedAbsSqrt(me2(3,3))
+    41     1.50069965E+03   # SignedAbsSqrt(mq2(1,1))
+    42     1.50079965E+03   # SignedAbsSqrt(mq2(2,2))
+    43     1.50089471E+03   # SignedAbsSqrt(mq2(3,3))
+    44     1.50000963E+03   # SignedAbsSqrt(mu2(1,1))
+    45     1.50001963E+03   # SignedAbsSqrt(mu2(2,2))
+    46     1.50001950E+03   # SignedAbsSqrt(mu2(3,3))
+    47     1.50003962E+03   # SignedAbsSqrt(md2(1,1))
+    48     1.50004962E+03   # SignedAbsSqrt(md2(2,2))
+    49     1.50005958E+03   # SignedAbsSqrt(md2(3,3))
 Block NMSSMRUN Q= 1.50000000E+03
      1     1.59999105E+00   # Lambdax
      2     1.60999906E+00   # Kappa
