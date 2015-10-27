@@ -1,6 +1,6 @@
 Block SPINFO
      1   FlexibleSUSY
-     2   1.2.3
+     2   1.2.4
      5   lowNMSSM
      9   4.5.8
 Block MODSEL                 # Select model
@@ -18,24 +18,21 @@ Block FlexibleSUSY
     9   1                    # Higgs 2-loop corrections O(alpha_b alpha_s)
    10   1                    # Higgs 2-loop corrections O((alpha_t + alpha_b)^2)
    11   1                    # Higgs 2-loop corrections O(alpha_tau^2)
-Block SMINPUTS
-     1     1.28962000E+02   # alpha^(-1) SM MSbar(MZ)
-     2     1.16637000E-05   # G_Fermi
-     3     1.18400000E-01   # alpha_s(MZ) SM MSbar
-     4     9.11876000E+01   # MZ(pole)
-     5     4.19000000E+00   # mb(mb) SM MSbar
-     6     1.73500000E+02   # mtop(pole)
-     7     1.77682000E+00   # mtau(pole)
-     8     0.00000000E+00   # mnu3(pole)
-     9     8.03850000E+01   # MW(pole)
-    11     5.02731095E-04   # melectron(pole)
-    12     0.00000000E+00   # mnu1(pole)
-    13     1.03948845E-01   # mmuon(pole)
-    14     0.00000000E+00   # mnu2(pole)
-    21     4.94352933E-03   # md
-    22     2.49671691E-03   # mu
-    23     9.98692793E-02   # ms
-    24     1.41658788E+00   # mc
+Block SMINPUTS               # Standard Model inputs
+    1     1.28962000E+02     # alpha_em^(-1)
+    2     1.16637000E-05     # G_F
+    3     1.18400000E-01     # alpha_s
+    4     9.11876000E+01     # Mz
+    5     4.19000000E+00     # m_b^MS(mb)
+    6     1.73500000E+02     # m_t
+    7     1.77682000E+00     # m_tau
+    9     8.03850000E+01     # Mw
+   11     5.10998910E-04     # m_e
+   13     1.05658367E-01     # m_mu
+   21     4.95000000E-03     # m_d
+   22     2.50000000E-03     # m_u
+   23     1.00000000E-01     # m_s
+   24     1.42000000E+00     # m_c
 Block EXTPAR
      0     1.00000000E+03   # Qin
      1     1.00000000E+03   # M1Input

@@ -1,6 +1,6 @@
 Block SPINFO
      1   FlexibleSUSY
-     2   1.2.3
+     2   1.2.4
      4   Problems: non-perturbative Kappa [|Kappa|(2.10205e+16) = 4.90243 > 3.54491],
      5   NUTNMSSM
      9   4.5.8
@@ -22,24 +22,14 @@ Block FlexibleSUSY
    12   0                    # force output
    13   1                    # Top quark 2-loop corrections QCD
    14   1.000000000e-11      # beta-function zero threshold
-Block SMINPUTS
-     1     1.27944000E+02   # alpha^(-1) SM MSbar(MZ)
-     2     1.16637870E-05   # G_Fermi
-     3     1.18500000E-01   # alpha_s(MZ) SM MSbar
-     4     9.11876000E+01   # MZ(pole)
-     5     4.18000000E+00   # mb(mb) SM MSbar
-     6     1.73070000E+02   # mtop(pole)
-     7     1.77682000E+00   # mtau(pole)
-     8     0.00000000E+00   # mnu3(pole)
-     9     8.04040000E+01   # MW(pole)
-    11     5.02667852E-04   # melectron(pole)
-    12     0.00000000E+00   # mnu1(pole)
-    13     1.03935760E-01   # mmuon(pole)
-    14     0.00000000E+00   # mnu2(pole)
-    21     4.75790937E-03   # md
-    22     2.40401316E-03   # mu
-    23     1.04173174E-01   # ms
-    24     1.27172153E+00   # mc
+Block SMINPUTS               # Standard Model inputs
+    1   127.944              # ALPHA_EM^-1(MZ)
+    2   1.1663787E-5         # GF
+    3   1.18500000E-01       # ALPHA_S(MZ)
+    4   91.1876              # MZ
+    5   4.18000000E+00       # MB(MB)
+    6   1.73070000E+02       # MTOP
+    7   1.77682              # MTAU
 Block MINPAR
      1     2.40000000E+03   # m0
      2     5.50000000E+02   # m12

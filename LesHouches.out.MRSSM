@@ -1,6 +1,6 @@
 Block SPINFO
      1   FlexibleSUSY
-     2   1.2.3
+     2   1.2.4
      5   MRSSM
      9   4.5.8
 Block MODSEL     #
@@ -8,6 +8,13 @@ Block MODSEL     #
     2 1          # Boundary Condition
     6 1          # Generation Mixing
 #   12 1000       # output scale
+Block SMINPUTS   # Standard Model inputs
+    2 1.166370E-05       # G_F,Fermi constant
+    3 1.187000E-01       # alpha_s(MZ) SM MSbar
+    4 9.118870E+01       # Z-boson pole mass
+    5 4.180000E+00       # m_b(mb) SM MSbar
+    6 1.735000E+02       # m_top(pole)
+    7 1.776690E+00       # m_tau(pole)
 Block FlexibleSUSY
     0   1.000000000e-04      # precision goal
     1   0                    # max. iterations (0 = automatic)
@@ -151,24 +158,6 @@ Block HMIXIN
     203  0.000000E+02     # BmuD
     204  0.000000E+02     # BmuU
     101  1.000000E+04     # Bmu
-Block SMINPUTS
-     1     1.27916000E+02   # alpha^(-1) SM MSbar(MZ)
-     2     1.16637000E-05   # G_Fermi
-     3     1.18700000E-01   # alpha_s(MZ) SM MSbar
-     4     9.11887000E+01   # MZ(pole)
-     5     4.18000000E+00   # mb(mb) SM MSbar
-     6     1.73500000E+02   # mtop(pole)
-     7     1.77669000E+00   # mtau(pole)
-     8     0.00000000E+00   # mnu3(pole)
-     9     8.04040000E+01   # MW(pole)
-    11     5.02665899E-04   # melectron(pole)
-    12     0.00000000E+00   # mnu1(pole)
-    13     1.03935356E-01   # mmuon(pole)
-    14     0.00000000E+00   # mnu2(pole)
-    21     4.75171297E-03   # md
-    22     2.40086900E-03   # mu
-    23     1.04037505E-01   # ms
-    24     1.27085085E+00   # mc
 Block MINPAR
      3     4.00000000E+00   # TanBeta
 Block gauge Q= 1.00000000E+03

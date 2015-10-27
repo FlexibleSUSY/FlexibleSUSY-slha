@@ -1,6 +1,6 @@
 Block SPINFO
      1   FlexibleSUSY
-     2   1.2.3
+     2   1.2.4
      5   lowNMSSM
      9   4.5.8
 Block FlexibleSUSY
@@ -18,24 +18,21 @@ Block FlexibleSUSY
    11   1                    # Higgs 2-loop corrections O(alpha_tau^2)
    13   1                    # Top quark 2-loop corrections QCD
    14   1.000000000e-11      # beta-function zero threshold
-Block SMINPUTS
-     1     1.28962000E+02   # alpha^(-1) SM MSbar(MZ)
-     2     1.16639000E-05   # G_Fermi
-     3     1.17200000E-01   # alpha_s(MZ) SM MSbar
-     4     9.11876000E+01   # MZ(pole)
-     5     4.20000000E+00   # mb(mb) SM MSbar
-     6     1.72900000E+02   # mtop(pole)
-     7     1.77700000E+00   # mtau(pole)
-     8     0.00000000E+00   # mnu3(pole)
-     9     8.03850000E+01   # MW(pole)
-    11     5.02731182E-04   # melectron(pole)
-    12     0.00000000E+00   # mnu1(pole)
-    13     1.08818404E+00   # mmuon(pole)
-    14     0.00000000E+00   # mnu2(pole)
-    21     4.94677397E-03   # md
-    22     2.49836377E-03   # mu
-    23     9.99348276E-02   # ms
-    24     1.42283871E+00   # mc
+BLOCK SMINPUTS    #
+1 128.962    #
+2 0.000011663900000000002    #
+3 0.1172    #
+4 91.1876    #
+5 4.2    #
+6 172.9    #
+7 1.777    #
+9 80.385    #
+11 0.00051099891    #
+13 1.10565836    #
+21 0.00495    #
+22 0.0025    #
+23 0.1    #
+24 1.42    #
 Block EXTPAR
      0     1.50000000E+03   # Qin
      1     1.35000000E+02   # M1Input
@@ -216,9 +213,11 @@ Block MASS
    2000002     1.55060871E+03   # Su(4)
    2000004     1.55191659E+03   # Su(5)
    2000006     1.55283444E+03   # Su(6)
+        21     0.00000000E+00   # VG
         12     0.00000000E+00   # Fv(1)
         14     0.00000000E+00   # Fv(2)
         16     0.00000000E+00   # Fv(3)
+        22     0.00000000E+00   # VP
         23     9.11255942E+01   # VZ
         11     5.27760569E-04   # Fe(1)
         13     1.11080480E+00   # Fe(2)
@@ -229,8 +228,6 @@ Block MASS
          2     2.35449869E-03   # Fu(1)
          4     9.73495665E-01   # Fu(2)
          6     1.73771001E+02   # Fu(3)
-        21     0.00000000E+00   # VG
-        22     0.00000000E+00   # VP
 Block UMIX
   1  1     6.17941000E-01   # Re(UM(1,1))
   1  2    -7.86224472E-01   # Re(UM(1,2))

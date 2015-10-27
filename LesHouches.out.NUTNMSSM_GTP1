@@ -1,6 +1,6 @@
 Block SPINFO
      1   FlexibleSUSY
-     2   1.2.3
+     2   1.2.4
      5   NUTNMSSM
      9   4.5.8
 Block MODSEL                 # Select model
@@ -21,24 +21,21 @@ Block FlexibleSUSY
    12   0                    # force output
    13   1                    # Top quark 2-loop corrections QCD
    14   1.000000000e-11      # beta-function zero threshold
-Block SMINPUTS
-     1     1.28962000E+02   # alpha^(-1) SM MSbar(MZ)
-     2     1.16637000E-05   # G_Fermi
-     3     1.19000000E-01   # alpha_s(MZ) SM MSbar
-     4     9.11876000E+01   # MZ(pole)
-     5     4.19000000E+00   # mb(mb) SM MSbar
-     6     1.73200000E+02   # mtop(pole)
-     7     1.77682000E+00   # mtau(pole)
-     8     0.00000000E+00   # mnu3(pole)
-     9     8.03850000E+01   # MW(pole)
-    11     5.02731052E-04   # melectron(pole)
-    12     0.00000000E+00   # mnu1(pole)
-    13     1.03948836E-01   # mmuon(pole)
-    14     0.00000000E+00   # mnu2(pole)
-    21     4.95242160E-03   # md
-    22     2.50122470E-03   # mu
-    23     1.00048921E-01   # ms
-    24     1.41927575E+00   # mc
+BLOCK SMINPUTS
+    1     1.28962000E+02   # alpha_em^(-1)
+    2     1.16637000E-05   # G_F
+    3     1.19000000E-01   # alpha_s
+    4     9.11876000E+01   # Mz
+    5     4.19000000E+00   # m_b^MS(mb)
+    6     1.73200000E+02   # m_t
+    7     1.77682000E+00   # m_tau
+    9     8.03850000E+01   # Mw
+   11     5.10998910E-04   # m_e
+   13     1.05658367E-01   # m_mu
+   21     4.95000000E-03   # m_d
+   22     2.50000000E-03   # m_u
+   23     1.00000000E-01   # m_s
+   24     1.42000000E+00   # m_c
 Block MINPAR
      1     1.00000000E+03   # m0
      2     1.00000000E+03   # m12
