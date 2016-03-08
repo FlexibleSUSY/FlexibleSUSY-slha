@@ -1,8 +1,8 @@
 Block SPINFO
      1   FlexibleSUSY
-     2   1.3.2
+     2   1.4.0
      5   MRSSM
-     9   4.6.0
+     9   4.7.0
 Block MODSEL     #
     1 0          #  1/0: High/low scale input
     2 1          # Boundary Condition
@@ -32,6 +32,7 @@ Block FlexibleSUSY
    13   1                    # Top quark 2-loop corrections QCD
    14   1.000000000e-11      # beta-function zero threshold
    15   0                    # calculate observables (a_muon, ...)
+   16   0                    # force positive majorana masses
 Block SPhenoInput         # SPheno specific input
     1 -1          # error level
     2  1          # SPA conventions
@@ -277,8 +278,8 @@ Block MASS
        404     3.36529927E+02   # SRdp
        403     3.45580030E+02   # SRum
    1000021     2.22452743E+03   # Glu
-   3000022     3.37189812E+03   # sigmaO
-   3000021     5.19249427E+03   # phiO
+   3000022     3.34283172E+03   # sigmaO
+   3000021     5.19338196E+03   # phiO
    2000024     1.05617641E+02   # Cha2(1)
    2000037     2.81695839E+02   # Cha2(2)
    1000024     1.09149919E+02   # Cha1(1)

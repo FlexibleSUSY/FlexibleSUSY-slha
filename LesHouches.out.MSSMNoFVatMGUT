@@ -1,8 +1,8 @@
 Block SPINFO
      1   FlexibleSUSY
-     2   1.3.2
+     2   1.4.0
      5   MSSMNoFVatMGUT
-     9   4.6.0
+     9   4.7.0
 Block MODSEL                 # Select model
 #   12    1000                # DRbar parameter output scale (GeV)
 Block FlexibleSUSY
@@ -22,6 +22,7 @@ Block FlexibleSUSY
    13   1                    # Top quark 2-loop corrections QCD
    14   1.000000000e-11      # beta-function zero threshold
    15   0                    # calculate observables (a_muon, ...)
+   16   0                    # force positive majorana masses
 Block SMINPUTS               # Standard Model inputs
     1   1.279340000e+02      # alpha^(-1) SM MSbar(MZ)
     2   1.166370000e-05      # G_Fermi
@@ -122,7 +123,7 @@ Block Td Q= 8.64154678E+02
   1  2     0.00000000E+00   # TYd(1,2)
   1  3     0.00000000E+00   # TYd(1,3)
   2  1     0.00000000E+00   # TYd(2,1)
-  2  2    -4.27874761E+00   # TYd(2,2)
+  2  2    -4.27874760E+00   # TYd(2,2)
   2  3     0.00000000E+00   # TYd(2,3)
   3  1     0.00000000E+00   # TYd(3,1)
   3  2     0.00000000E+00   # TYd(3,2)
@@ -146,7 +147,7 @@ Block MSQ2 Q= 8.64154678E+02
   2  3     0.00000000E+00   # mq2(2,3)
   3  1     0.00000000E+00   # mq2(3,1)
   3  2     0.00000000E+00   # mq2(3,2)
-  3  3     8.60986077E+05   # mq2(3,3)
+  3  3     8.60986078E+05   # mq2(3,3)
 Block MSE2 Q= 8.64154678E+02
   1  1     4.93853407E+04   # me2(1,1)
   1  2     0.00000000E+00   # me2(1,2)
@@ -213,10 +214,10 @@ Block scharmmix
   2  1     9.99957882E-01   # ZC(2,1)
   2  2    -9.17792262E-03   # ZC(2,2)
 Block sdownmix
-  1  1     2.07035097E-04   # ZD(1,1)
+  1  1     2.07035095E-04   # ZD(1,1)
   1  2     9.99999979E-01   # ZD(1,2)
   2  1     9.99999979E-01   # ZD(2,1)
-  2  2    -2.07035097E-04   # ZD(2,2)
+  2  2    -2.07035095E-04   # ZD(2,2)
 Block selemix
   1  1     4.24163557E-05   # ZE(1,1)
   1  2     9.99999999E-01   # ZE(1,2)
@@ -275,7 +276,7 @@ Block supmix
   2  1     1.00000000E+00   # ZU(2,1)
   2  2    -2.00755234E-05   # ZU(2,2)
 Block FlexibleSUSYOutput Q= 8.64154678E+02
-     0     1.89329724E+16   # HighScale
+     0     1.89329723E+16   # HighScale
      1     8.64154678E+02   # SUSYScale
      2     9.11876000E+01   # LowScale
 Block ALPHA Q= 8.64154678E+02
