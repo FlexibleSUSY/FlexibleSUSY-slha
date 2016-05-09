@@ -1,9 +1,9 @@
 Block SPINFO
      1   FlexibleSUSY
-     2   1.4.0
-     4   Problems: non-perturbative Kappa [|Kappa|(2.10205e+16) = 4.90256 > 3.54491],
+     2   1.4.2
+     4   Problems: non-perturbative Kappa [|Kappa|(2.10204e+16) = 4.90211 > 3.54491],
      5   NUTNMSSM
-     9   4.7.0
+     9   4.8.5
 Block MODSEL                 # Select model
     6   0                    # flavour violation
 Block FlexibleSUSY
