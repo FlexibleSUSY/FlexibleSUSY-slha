@@ -1,6 +1,6 @@
 Block SPINFO
      1   FlexibleSUSY
-     2   1.5.0
+     2   1.5.1
      5   NUTSMSSM
      9   4.8.6
 Block MODSEL                 # Select model
