@@ -1,8 +1,8 @@
 Block SPINFO
      1   FlexibleSUSY
-     2   1.5.1
+     2   1.6.0
      5   MSSMNoFVatMGUT
-     9   4.8.6
+     9   4.9.1
 Block MODSEL                 # Select model
 #   12    1000                # DRbar parameter output scale (GeV)
 Block FlexibleSUSY
@@ -19,7 +19,7 @@ Block FlexibleSUSY
    10   1                    # Higgs 2-loop corrections O((alpha_t + alpha_b)^2)
    11   1                    # Higgs 2-loop corrections O(alpha_tau^2)
    12   0                    # force output
-   13   1                    # Top quark 2-loop corrections QCD
+   13   1                    # Top pole mass QCD corrections (0 = 1L, 1 = 2L, 2 = 3L)
    14   1.000000000e-11      # beta-function zero threshold
    15   0                    # calculate observables (a_muon, ...)
    16   0                    # force positive majorana masses
@@ -281,7 +281,7 @@ Block supmix
   2  1     1.00000000E+00   # ZU(2,1)
   2  2    -2.00759745E-05   # ZU(2,2)
 Block FlexibleSUSYOutput Q= 8.64155093E+02
-     0     1.89329762E+16   # HighScale
+     0     1.89329763E+16   # HighScale
      1     8.64155093E+02   # SUSYScale
      2     9.11876000E+01   # LowScale
 Block ALPHA Q= 8.64155093E+02
