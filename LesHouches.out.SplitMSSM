@@ -1,6 +1,6 @@
 Block SPINFO
      1   FlexibleSUSY
-     2   1.6.1
+     2   1.7.0
      5   SplitMSSM
      9   4.9.1
 Block MODSEL                 # Select model
@@ -134,7 +134,7 @@ Block MASS
         12     0.00000000E+00   # Fv(1)
         14     0.00000000E+00   # Fv(2)
         16     0.00000000E+00   # Fv(3)
-        25     1.10004361E+02   # hh
+        25     1.09996586E+02   # hh
          1     4.63878098E-03   # Fd(1)
          3     8.99495768E-02   # Fd(2)
          5     3.58469800E+00   # Fd(3)
