@@ -1,6 +1,6 @@
 Block SPINFO
      1   FlexibleSUSY
-     2   1.7.1
+     2   1.7.2
      5   MRSSM
      9   4.9.1
 Block MODSEL     #
@@ -39,6 +39,7 @@ Block FlexibleSUSY
    20   2                    # EFT loop order for upwards matching
    21   1                    # EFT loop order for downwards matching
    22   0                    # EFT index of SM-like Higgs in the BSM model
+   23   1                    # calculate BSM pole masses
 Block SPhenoInput         # SPheno specific input
     1 -1          # error level
     2  1          # SPA conventions
@@ -313,7 +314,7 @@ Block MASS
    1000003     3.23252420E+03   # Sd(2)
    1000005     3.23262628E+03   # Sd(3)
    2000001     3.23790688E+03   # Sd(4)
-   2000003     3.23790709E+03   # Sd(5)
+   2000003     3.23790708E+03   # Sd(5)
    2000005     3.25046039E+03   # Sd(6)
    1000011     3.16507421E+03   # Se(1)
    1000013     3.16507439E+03   # Se(2)
