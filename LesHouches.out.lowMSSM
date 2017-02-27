@@ -1,8 +1,8 @@
 Block SPINFO
      1   FlexibleSUSY
-     2   1.7.2
+     2   1.7.3
      5   lowMSSM
-     9   4.9.1
+     9   4.9.3
 Block FlexibleSUSY
     0   1.000000000e-04      # precision goal
     1   0                    # max. iterations (0 = automatic)

@@ -1,8 +1,8 @@
 Block SPINFO
      1   FlexibleSUSY
-     2   1.7.2
+     2   1.7.3
      5   MSSMtower
-     9   4.9.1
+     9   4.9.3
 Block MODSEL                 # Select model
     6   0                    # flavour violation
 Block FlexibleSUSY
@@ -80,8 +80,6 @@ Block AEIN
   1  1     1e4   # Ad(1,1)
   2  2     1e4   # Ad(2,2)
   3  3     1e4   # Ad(3,3)
-Block MINPAR
-     4                  1   # SignMu
 Block EXTPAR
      0     2.00000000E+03   # MSUSY
      1     2.00000000E+03   # M1Input
