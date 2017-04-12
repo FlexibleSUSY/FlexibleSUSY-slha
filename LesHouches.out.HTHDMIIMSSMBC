@@ -1,8 +1,8 @@
 Block SPINFO
      1   FlexibleSUSY
-     2   1.7.3
+     2   1.7.4
      5   HTHDMIIMSSMBC
-     9   4.9.3
+     9   4.11.0
 Block MODSEL                 # Select model
 #   12    1000                # DRbar parameter output scale (GeV)
 Block FlexibleSUSY
@@ -99,7 +99,7 @@ Block HMIX Q= 1.73340000E+02
     33     3.95638790E-02   # Lambda3
     34    -1.92956641E-01   # Lambda4
     35     0.00000000E+00   # Lambda5
-    36     2.45736004E-10   # Lambda6
+    36     2.45736003E-10   # Lambda6
     37     8.25692042E-09   # Lambda7
     20     3.99941302E+04   # M112
     21    -5.91127153E+03   # M222

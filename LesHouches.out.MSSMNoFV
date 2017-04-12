@@ -1,8 +1,8 @@
 Block SPINFO
      1   FlexibleSUSY
-     2   1.7.3
+     2   1.7.4
      5   MSSMNoFV
-     9   4.9.3
+     9   4.11.0
 Block MODSEL                 # Select model
 #   12    1000                # DRbar parameter output scale (GeV)
 Block FlexibleSUSY
@@ -221,15 +221,15 @@ Block sbotmix
   2  1     2.33163097E-01   # ZB(2,1)
   2  2    -9.72437643E-01   # ZB(2,2)
 Block scharmmix
-  1  1     9.18862063E-03   # ZC(1,1)
+  1  1     9.18862062E-03   # ZC(1,1)
   1  2     9.99957784E-01   # ZC(1,2)
   2  1     9.99957784E-01   # ZC(2,1)
-  2  2    -9.18862063E-03   # ZC(2,2)
+  2  2    -9.18862062E-03   # ZC(2,2)
 Block sdownmix
-  1  1     2.06489692E-04   # ZD(1,1)
+  1  1     2.06489690E-04   # ZD(1,1)
   1  2     9.99999979E-01   # ZD(1,2)
   2  1     9.99999979E-01   # ZD(2,1)
-  2  2    -2.06489692E-04   # ZD(2,2)
+  2  2    -2.06489690E-04   # ZD(2,2)
 Block selemix
   1  1     4.25115217E-05   # ZE(1,1)
   1  2     9.99999999E-01   # ZE(1,2)
