@@ -1,8 +1,8 @@
 Block SPINFO
      1   FlexibleSUSY
-     2   2.0.1
+     2   2.1.0
      5   SplitMSSM
-     9   4.12.0
+     9   4.12.3
 Block MODSEL                 # Select model
 #   12    1000                # DRbar parameter output scale (GeV)
 Block FlexibleSUSY
@@ -36,6 +36,7 @@ Block FlexibleSUSY
    27   1                    # Higgs 3-loop corrections O(alpha_b alpha_s^2)
    28   1                    # Higgs 3-loop corrections O(alpha_t^2 alpha_s)
    29   1                    # Higgs 3-loop corrections O(alpha_t^3)
+   30   1                    # Higgs 4-loop corrections O(alpha_t alpha_s^3)
 Block SMINPUTS               # Standard Model inputs
     1   1.279440000e+02      # alpha^(-1) SM MSbar(MZ)
     2   1.166378700e-05      # G_Fermi
@@ -181,7 +182,7 @@ Block MASS
         12     0.00000000E+00   # Fv(1)
         14     0.00000000E+00   # Fv(2)
         16     0.00000000E+00   # Fv(3)
-        25     1.10890331E+02   # hh
+        25     1.10890398E+02   # hh
          1     4.63815761E-03   # Fd(1)
          3     8.99383157E-02   # Fd(2)
          5     3.58300259E+00   # Fd(3)

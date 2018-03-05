@@ -1,25 +1,25 @@
 Block SPINFO
      1   FlexibleSUSY
-     2   2.0.1
+     2   2.1.0
      5   MRSSMEFTHiggs
-     9   4.12.0
+     9   4.12.3
 Block MODSEL                 # Select model
 #   12    1000                # DRbar parameter output scale (GeV)
 Block FlexibleSUSY
-    0   1.000000000e-04      # precision goal
+    0   1.000000000e-05      # precision goal
     1   0                    # max. iterations (0 = automatic)
     2   0                    # algorithm (0 = all, 1 = two_scale, 2 = semi_analytic)
     3   0                    # calculate SM pole masses
-    4   1                    # pole mass loop order
-    5   1                    # EWSB loop order
-    6   3                    # beta-functions loop order
-    7   2                    # threshold corrections loop order
+    4   4                    # pole mass loop order
+    5   4                    # EWSB loop order
+    6   4                    # beta-functions loop order
+    7   3                    # threshold corrections loop order
     8   1                    # Higgs 2-loop corrections O(alpha_t alpha_s)
     9   1                    # Higgs 2-loop corrections O(alpha_b alpha_s)
    10   1                    # Higgs 2-loop corrections O((alpha_t + alpha_b)^2)
    11   1                    # Higgs 2-loop corrections O(alpha_tau^2)
    12   0                    # force output
-   13   1                    # Top quark 2-loop corrections QCD
+   13   1                    # Top pole mass QCD corrections (0 = 1L, 1 = 2L, 2 = 3L)
    14   1.000000000e-11      # beta-function zero threshold
    15   0                    # calculate observables (a_muon, ...)
    16   0                    # force positive majorana masses
@@ -30,6 +30,13 @@ Block FlexibleSUSY
    21   1                    # EFT loop order for downwards matching
    22   0                    # EFT index of SM-like Higgs in the BSM model
    23   0                    # calculate BSM pole masses
+   24   123111321            # individual threshold correction loop orders
+   25   0                    # ren. scheme for Higgs 3L corrections (0 = DR, 1 = MDR)
+   26   1                    # Higgs 3-loop corrections O(alpha_t alpha_s^2)
+   27   1                    # Higgs 3-loop corrections O(alpha_b alpha_s^2)
+   28   1                    # Higgs 3-loop corrections O(alpha_t^2 alpha_s)
+   29   1                    # Higgs 3-loop corrections O(alpha_t^3)
+   30   1                    # Higgs 4-loop corrections O(alpha_t alpha_s^3)
 Block FlexibleSUSYInput
     0   0.00729735           # alpha_em(0)
     1   125.09               # Mh pole
@@ -124,45 +131,45 @@ Block MSU2IN
   3  2     0.00000000E+00   # mu2Input(3,2)
   3  3     1.00000000E+06   # mu2Input(3,3)
 Block gauge Q= 1.00000000E+03
-     1     3.62162350E-01   # g1 * 0.7745966692414834
-     2     6.39531885E-01   # g2
-     3     1.05682368E+00   # g3
+     1     3.62163932E-01   # g1 * 0.7745966692414834
+     2     6.39531603E-01   # g2
+     3     1.05683985E+00   # g3
 Block Yu Q= 1.00000000E+03
-  1  1     6.87669119E-06   # Yu(1,1)
+  1  1     6.87578401E-06   # Yu(1,1)
   1  2     0.00000000E+00   # Yu(1,2)
   1  3     0.00000000E+00   # Yu(1,3)
   2  1     0.00000000E+00   # Yu(2,1)
-  2  2     3.13048484E-03   # Yu(2,2)
+  2  2     3.13007186E-03   # Yu(2,2)
   2  3     0.00000000E+00   # Yu(2,3)
   3  1     0.00000000E+00   # Yu(3,1)
   3  2     0.00000000E+00   # Yu(3,2)
-  3  3     8.75252158E-01   # Yu(3,3)
+  3  3     8.72703472E-01   # Yu(3,3)
 Block Yd Q= 1.00000000E+03
-  1  1     6.85028359E-05   # Yd(1,1)
+  1  1     6.84938003E-05   # Yd(1,1)
   1  2     0.00000000E+00   # Yd(1,2)
   1  3     0.00000000E+00   # Yd(1,3)
   2  1     0.00000000E+00   # Yd(2,1)
-  2  2     1.49985117E-03   # Yd(2,2)
+  2  2     1.49965334E-03   # Yd(2,2)
   2  3     0.00000000E+00   # Yd(2,3)
   3  1     0.00000000E+00   # Yd(3,1)
   3  2     0.00000000E+00   # Yd(3,2)
-  3  3     7.00734644E-02   # Yd(3,3)
+  3  3     7.00693837E-02   # Yd(3,3)
 Block Ye Q= 1.00000000E+03
-  1  1     1.48518511E-05   # Ye(1,1)
+  1  1     1.48500715E-05   # Ye(1,1)
   1  2     0.00000000E+00   # Ye(1,2)
   1  3     0.00000000E+00   # Ye(1,3)
   2  1     0.00000000E+00   # Ye(2,1)
-  2  2     3.07089148E-03   # Ye(2,2)
+  2  2     3.07052352E-03   # Ye(2,2)
   2  3     0.00000000E+00   # Ye(2,3)
   3  1     0.00000000E+00   # Ye(3,1)
   3  2     0.00000000E+00   # Ye(3,2)
-  3  3     5.16473684E-02   # Ye(3,3)
+  3  3     5.16411801E-02   # Ye(3,3)
 Block HMIX Q= 1.00000000E+03
      1     0.00000000E+00   # Mu
    101     1.00000000E+03   # BMu
-   102     4.79651238E+01   # vd
-   103     2.39825619E+02   # vu
-   310     2.94896339E+00   # vT
+   102     4.79709083E+01   # vd
+   103     2.39854542E+02   # vu
+   310     2.94967966E+00   # vT
    201     1.00000000E+03   # MuD
    202     1.00000000E+03   # MuU
    203     0.00000000E+00   # BMuD
@@ -222,8 +229,8 @@ Block MSD2 Q= 1.00000000E+03
   3  2     0.00000000E+00   # md2(3,2)
   3  3     1.00000000E+06   # md2(3,3)
 Block MSOFT Q= 1.00000000E+03
-    21    -1.00574127E+06   # mHd2
-    22    -9.88093711E+05   # mHu2
+    21    -1.00574087E+06   # mHd2
+    22    -9.88231731E+05   # mHu2
    110     1.00000000E+06   # mT2
    111     1.00000000E+06   # moc2
    300     1.00000000E+03   # MDBS
@@ -233,9 +240,9 @@ Block MSOFT Q= 1.00000000E+03
     51     1.00000000E+06   # mRu2
 Block NMSSMRUN Q= 1.00000000E+03
     10     1.00000000E+06   # mS2
-     5    -1.93138583E-01   # vS
+     5    -1.93428291E-01   # vS
 Block MASS
-        24     8.04414922E+01   # VWm
+        24     8.04393495E+01   # VWm
        404     0.00000000E+00   # SRdp
        403     0.00000000E+00   # SRum
    1000021     0.00000000E+00   # Glu
@@ -257,7 +264,7 @@ Block MASS
         37     0.00000000E+00   # Hpm(2)
         47     0.00000000E+00   # Hpm(3)
         57     0.00000000E+00   # Hpm(4)
-        25     7.24367333E+01   # hh(1)
+        25     7.21931689E+01   # hh(1)
         35     0.00000000E+00   # hh(2)
         45     0.00000000E+00   # hh(3)
         55     0.00000000E+00   # hh(4)
@@ -514,62 +521,62 @@ Block SNUMIX
   3  2     0.00000000E+00   # ZV(3,2)
   3  3     0.00000000E+00   # ZV(3,3)
 Block SMGAUGE Q= 1.73340000E+02
-     1     3.58458656E-01   # gY
-     2     6.48040550E-01   # g2
-     3     1.16596040E+00   # g3
+     1     3.58459981E-01   # gY
+     2     6.48041039E-01   # g2
+     3     1.16600344E+00   # g3
 Block SMYu Q= 1.73340000E+02
-  1  1    -7.48795417E-06   # Yu(1,1)
+  1  1    -7.48821001E-06   # Yu(1,1)
   1  2     0.00000000E+00   # Yu(1,2)
   1  3     0.00000000E+00   # Yu(1,3)
   2  1     0.00000000E+00   # Yu(2,1)
-  2  2    -3.40875023E-03   # Yu(2,2)
+  2  2    -3.40886669E-03   # Yu(2,2)
   2  3     0.00000000E+00   # Yu(2,3)
   3  1     0.00000000E+00   # Yu(3,1)
   3  2     0.00000000E+00   # Yu(3,2)
-  3  3    -9.39660445E-01   # Yu(3,3)
+  3  3    -9.37162330E-01   # Yu(3,3)
 Block SMYd Q= 1.73340000E+02
-  1  1     1.48968953E-05   # Yd(1,1)
+  1  1     1.48974043E-05   # Yd(1,1)
   1  2     0.00000000E+00   # Yd(1,2)
   1  3     0.00000000E+00   # Yd(1,3)
   2  1     0.00000000E+00   # Yd(2,1)
-  2  2     3.26163576E-04   # Yd(2,2)
+  2  2     3.26174721E-04   # Yd(2,2)
   2  3     0.00000000E+00   # Yd(2,3)
   3  1     0.00000000E+00   # Yd(3,1)
   3  2     0.00000000E+00   # Yd(3,2)
-  3  3     1.54566596E-02   # Yd(3,3)
+  3  3     1.54571239E-02   # Yd(3,3)
 Block SMYe Q= 1.73340000E+02
-  1  1     2.87711724E-06   # Ye(1,1)
+  1  1     2.87723090E-06   # Ye(1,1)
   1  2     0.00000000E+00   # Ye(1,2)
   1  3     0.00000000E+00   # Ye(1,3)
   2  1     0.00000000E+00   # Ye(2,1)
-  2  2     5.94896537E-04   # Ye(2,2)
+  2  2     5.94920037E-04   # Ye(2,2)
   2  3     0.00000000E+00   # Ye(2,3)
   3  1     0.00000000E+00   # Ye(3,1)
   3  2     0.00000000E+00   # Ye(3,2)
-  3  3     1.00051693E-02   # Ye(3,3)
+  3  3     1.00055646E-02   # Ye(3,3)
 Block SMSM Q= 1.73340000E+02
-     1     3.43910295E+03   # mu2
-     2     8.29485029E-02   # Lambdax
+     1     3.42257977E+03   # mu2
+     2     8.26023258E-02   # Lambdax
 Block SMHMIX Q= 1.73340000E+02
-     3     2.47678779E+02   # v
+     3     2.47669141E+02   # v
 Block SMMASS
-        24     8.04663822E+01   # VWp
+        24     8.04638745E+01   # VWp
         21     0.00000000E+00   # VG
         12     0.00000000E+00   # Fv(1)
         14     0.00000000E+00   # Fv(2)
         16     0.00000000E+00   # Fv(3)
-        25     7.24367333E+01   # hh
-         1     4.73216199E-03   # Fd(1)
-         3     9.13945670E-02   # Fd(2)
-         5     3.61613127E+00   # Fd(3)
-         2     2.46089329E-03   # Fu(1)
-         4     8.62543583E-01   # Fu(2)
-         6     1.71383074E+02   # Fu(3)
-        11     5.27948661E-04   # Fe(1)
-        13     1.07086441E-01   # Fe(2)
-        15     1.78252903E+00   # Fe(3)
+        25     7.21931689E+01   # hh
+         1     4.73229633E-03   # Fd(1)
+         3     9.13966693E-02   # Fd(2)
+         5     3.61617343E+00   # Fd(3)
+         2     2.46096511E-03   # Fu(1)
+         4     8.62558885E-01   # Fu(2)
+         6     1.72668581E+02   # Fu(3)
+        11     5.27949052E-04   # Fe(1)
+        13     1.07086508E-01   # Fe(2)
+        15     1.78253003E+00   # Fe(3)
         22     0.00000000E+00   # VP
-        23     9.12435137E+01   # VZ
+        23     9.12431886E+01   # VZ
 Block SMUULMIX
   1  1     1.00000000E+00   # Re(Vu(1,1))
   1  2     0.00000000E+00   # Re(Vu(1,2))
@@ -631,19 +638,4 @@ Block SMUERMIX
   3  2     0.00000000E+00   # Re(Ue(3,2))
   3  3     1.00000000E+00   # Re(Ue(3,3))
 Block FlexibleSUSYLowEnergy Q= 1.00000000E+03
-     1     0.00000000E+00   # Delta(g-2)_muon/2 FlexibleSUSY
-Block EFFHIGGSCOUPLINGS
-       25       22       22     0.00000000E+00   # Abs(effective H-Photon-Photon coupling)
-       35       22       22     0.00000000E+00   # Abs(effective H-Photon-Photon coupling)
-       45       22       22     0.00000000E+00   # Abs(effective H-Photon-Photon coupling)
-       55       22       22     0.00000000E+00   # Abs(effective H-Photon-Photon coupling)
-       25       21       21     0.00000000E+00   # Abs(effective H-Gluon-Gluon coupling)
-       35       21       21     0.00000000E+00   # Abs(effective H-Gluon-Gluon coupling)
-       45       21       21     0.00000000E+00   # Abs(effective H-Gluon-Gluon coupling)
-       55       21       21     0.00000000E+00   # Abs(effective H-Gluon-Gluon coupling)
-       36       22       22     0.00000000E+00   # Abs(effective A-Photon-Photon coupling)
-       46       22       22     0.00000000E+00   # Abs(effective A-Photon-Photon coupling)
-       56       22       22     0.00000000E+00   # Abs(effective A-Photon-Photon coupling)
-       36       21       21     0.00000000E+00   # Abs(effective A-Gluon-Gluon coupling)
-       46       21       21     0.00000000E+00   # Abs(effective A-Gluon-Gluon coupling)
-       56       21       21     0.00000000E+00   # Abs(effective A-Gluon-Gluon coupling)
+    21     0.00000000E+00   # Delta(g-2)_muon/2 FlexibleSUSY
