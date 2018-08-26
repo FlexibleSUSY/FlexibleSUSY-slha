@@ -1,9 +1,9 @@
 Block SPINFO
      1   FlexibleSUSY
-     2   2.1.0
+     2   2.2.0
      4   running tachyon hh
      5   NUTNMSSM
-     9   4.12.3
+     9   4.13.0
 Block MODSEL                 # Select model
     6   0                    # flavour violation
 Block FlexibleSUSY
