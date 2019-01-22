@@ -1,8 +1,8 @@
 Block SPINFO
      1   FlexibleSUSY
-     2   2.2.0
+     2   2.3.0
      5   MSSMNoFVatMGUTHimalaya
-     9   4.13.0
+     9   4.14.1
 Block MODSEL                 # Select model
 #   12    1000                # DRbar parameter output scale (GeV)
 Block FlexibleSUSY
@@ -208,8 +208,8 @@ Block Phases Q= 8.53637313E+02
 Block IMPhases Q= 8.53637313E+02
      1     0.00000000E+00   # Im(PhaseGlu)
 Block MASS
-   1000021     1.13017454E+03   # Glu
-        24     8.04243893E+01   # VWm
+   1000021     1.13017455E+03   # Glu
+        24     8.04243892E+01   # VWm
    1000012     3.52111503E+02   # SveL
    1000014     3.52107392E+02   # SvmL
    1000016     3.50948810E+02   # SvtL
@@ -267,10 +267,10 @@ Block scharmmix
   2  1     9.99959153E-01   # ZC(2,1)
   2  2    -9.03841830E-03   # ZC(2,2)
 Block sdownmix
-  1  1     2.02047452E-04   # ZD(1,1)
+  1  1     2.02047450E-04   # ZD(1,1)
   1  2     9.99999980E-01   # ZD(1,2)
   2  1     9.99999980E-01   # ZD(2,1)
-  2  2    -2.02047452E-04   # ZD(2,2)
+  2  2    -2.02047450E-04   # ZD(2,2)
 Block selemix
   1  1     4.15248574E-05   # ZE(1,1)
   1  2     9.99999999E-01   # ZE(1,2)
@@ -324,10 +324,10 @@ Block staumix
   2  1     9.90326037E-01   # ZTau(2,1)
   2  2    -1.38760009E-01   # ZTau(2,2)
 Block supmix
-  1  1     1.97676840E-05   # ZU(1,1)
+  1  1     1.97676838E-05   # ZU(1,1)
   1  2     1.00000000E+00   # ZU(1,2)
   2  1     1.00000000E+00   # ZU(2,1)
-  2  2    -1.97676840E-05   # ZU(2,2)
+  2  2    -1.97676838E-05   # ZU(2,2)
 Block FlexibleSUSYOutput Q= 8.53637313E+02
      0     1.88287165E+16   # HighScale
      1     8.53637313E+02   # SUSYScale
