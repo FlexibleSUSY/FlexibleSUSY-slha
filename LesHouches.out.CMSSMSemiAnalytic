@@ -1,8 +1,8 @@
 Block SPINFO
      1   FlexibleSUSY
-     2   2.3.0
+     2   2.4.0
      5   CMSSMSemiAnalytic
-     9   4.14.1
+     9   4.14.2
 Block MODSEL                 # Select model
 #   12    1000                # DRbar parameter output scale (GeV)
 Block FlexibleSUSY

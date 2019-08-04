@@ -1,8 +1,8 @@
 Block SPINFO
      1   FlexibleSUSY
-     2   2.3.0
+     2   2.4.0
      5   MSSM
-     9   4.14.1
+     9   4.14.2
 Block MODSEL                 # Select model
     6   0                    # flavour violation
 #   12    1000                # DRbar parameter output scale (GeV)
@@ -521,3 +521,9 @@ Block MSOFT Q= 8.64561930E+02
     47     9.63385030E+02   # SignedAbsSqrt(md2(1,1))
     48     9.63382347E+02   # SignedAbsSqrt(md2(2,2))
     49     9.58601690E+02   # SignedAbsSqrt(md2(3,3))
+Block FlexibleSUSYLowEnergy Q= 8.64561930E+02
+    21     0.00000000E+00   # Delta(g-2)_muon/2 FlexibleSUSY
+    23     0.00000000E+00   # electric dipole moment of Fe(0) [1/GeV]
+    24     0.00000000E+00   # electric dipole moment of Fe(1) [1/GeV]
+    25     0.00000000E+00   # electric dipole moment of Fe(2) [1/GeV]
+    26     0.00000000E+00   # BR(Fe1 -> Fe0 VP)
