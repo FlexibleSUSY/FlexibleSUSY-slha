@@ -1,8 +1,8 @@
 Block SPINFO
      1   FlexibleSUSY
-     2   2.4.0
+     2   2.4.1
      5   MRSSM
-     9   4.14.2
+     9   4.14.3
 Block MODSEL     #
     1 0          #  1/0: High/low scale input
     2 1          # Boundary Condition
