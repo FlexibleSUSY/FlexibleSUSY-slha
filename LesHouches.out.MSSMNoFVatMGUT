@@ -1,6 +1,6 @@
 Block SPINFO
      1   FlexibleSUSY
-     2   2.4.1
+     2   2.4.2
      5   MSSMNoFVatMGUT
      9   4.14.3
 Block MODSEL                 # Select model
@@ -294,7 +294,7 @@ Block supmix
   2  1     1.00000000E+00   # ZU(2,1)
   2  2    -2.00751307E-05   # ZU(2,2)
 Block FlexibleSUSYOutput Q= 8.64145821E+02
-     0     1.89190657E+16   # HighScale
+     0     1.89190656E+16   # HighScale
      1     8.64145821E+02   # SUSYScale
      2     9.11876000E+01   # LowScale
 Block ALPHA Q= 8.64145821E+02

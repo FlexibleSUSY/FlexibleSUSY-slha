@@ -1,7 +1,7 @@
 Block SPINFO
      1   FlexibleSUSY
-     2   2.4.1
-     4   non-perturbative Kappa [|Kappa|(20760215840552204.000000) = 4.869085 > 3.544908]
+     2   2.4.2
+     4   non-perturbative Kappa [|Kappa|(20760215835834584.000000) = 4.869085 > 3.544908]
      5   NUTNMSSM
      9   4.14.3
 Block MODSEL                 # Select model

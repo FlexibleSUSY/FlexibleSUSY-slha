@@ -1,6 +1,6 @@
 Block SPINFO
      1   FlexibleSUSY
-     2   2.4.1
+     2   2.4.2
      5   NMSSMEFTHiggs
      9   4.14.3
 Block MODSEL                 # Select model
@@ -148,7 +148,7 @@ Block MSU2IN
   3  3     4.00000000E+06   # mu2Input(3,3)
 Block gauge Q= 2.00000000E+03
      1     3.63553700E-01   # g1 * 0.7745966692414834
-     2     6.35912972E-01   # g2
+     2     6.35912971E-01   # g2
      3     1.02103867E+00   # g3
 Block Yu Q= 2.00000000E+03
   1  1     6.62705316E-06   # Yu(1,1)
@@ -612,7 +612,7 @@ Block HMIX Q= 2.00000000E+03
      2     5.00000000E+00   # vu/vd
      3     2.43865109E+02   # Sqrt(Sqr(vd) + Sqr(vu))
      4     3.88918939E+06   # Sqr(MAh(2))
-   102     4.78258826E+01   # vd
+   102     4.78258827E+01   # vd
    103     2.39129413E+02   # vu
 Block Au Q= 2.00000000E+03
   1  1     4.00000000E+02   # TYu(1,1)/Yu(1,1)

@@ -1,6 +1,6 @@
 Block SPINFO
      1   FlexibleSUSY
-     2   2.4.1
+     2   2.4.2
      5   MRSSMEFTHiggs
      9   4.14.3
 Block MODSEL                 # Select model
@@ -560,7 +560,7 @@ Block SMSM Q= 1.73340000E+02
 Block SMHMIX Q= 1.73340000E+02
      3     2.47669013E+02   # v
 Block SMMASS
-        24     8.04638686E+01   # VWp
+        24     8.04638687E+01   # VWp
         21     0.00000000E+00   # VG
         12     0.00000000E+00   # Fv(1)
         14     0.00000000E+00   # Fv(2)
