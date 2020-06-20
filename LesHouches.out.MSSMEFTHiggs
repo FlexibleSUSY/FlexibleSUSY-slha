@@ -1,6 +1,6 @@
 Block SPINFO
      1   FlexibleSUSY
-     2   2.4.2
+     2   2.5.0
      5   MSSMEFTHiggs
      9   4.14.3
 Block MODSEL                 # Select model
@@ -37,6 +37,7 @@ Block FlexibleSUSY
    28   1                    # Higgs 3-loop corrections O(alpha_t^2 alpha_s)
    29   1                    # Higgs 3-loop corrections O(alpha_t^3)
    30   1                    # Higgs 4-loop corrections O(alpha_t alpha_s^3)
+   31   0                    # loop library (0 = softsusy)
 Block SMINPUTS               # Standard Model inputs
     1   1.279440000e+02      # alpha^(-1) SM MSbar(MZ)
     2   1.166378700e-05      # G_Fermi
@@ -263,7 +264,7 @@ Block IMPhases Q= 2.00000000E+03
      1     0.00000000E+00   # Im(PhaseGlu)
 Block MASS
    1000021     0.00000000E+00   # Glu
-        24     8.04196495E+01   # VWm
+        24     8.04196494E+01   # VWm
    1000024     0.00000000E+00   # Cha(1)
    1000037     0.00000000E+00   # Cha(2)
         25     1.10843069E+02   # hh(1)
@@ -463,7 +464,7 @@ Block SMGAUGE Q= 1.73340000E+02
      2     6.47800995E-01   # g2
      3     1.16483420E+00   # g3
 Block SMYu Q= 1.73340000E+02
-  1  1    -7.49354695E-06   # Yu(1,1)
+  1  1    -7.49354696E-06   # Yu(1,1)
   1  2     0.00000000E+00   # Yu(1,2)
   1  3     0.00000000E+00   # Yu(1,3)
   2  1     0.00000000E+00   # Yu(2,1)
@@ -498,21 +499,21 @@ Block SMSM Q= 1.73340000E+02
 Block SMHMIX Q= 1.73340000E+02
      3     2.47522097E+02   # v
 Block SMMASS
-        24     8.04529481E+01   # VWp
+        24     8.04529488E+01   # VWp
         21     0.00000000E+00   # VG
         12     0.00000000E+00   # Fv(1)
         14     0.00000000E+00   # Fv(2)
         16     0.00000000E+00   # Fv(3)
         25     1.10843069E+02   # hh
-         1     4.72859103E-03   # Fd(1)
-         3     9.13384359E-02   # Fd(2)
-         5     3.61477358E+00   # Fd(3)
-         2     2.45898724E-03   # Fu(1)
-         4     8.62132498E-01   # Fu(2)
-         6     1.72699460E+02   # Fu(3)
-        11     5.27949288E-04   # Fe(1)
-        13     1.07086546E-01   # Fe(2)
-        15     1.78253074E+00   # Fe(3)
+         1     4.72842953E-03   # Fd(1)
+         3     9.13382832E-02   # Fd(2)
+         5     3.61477385E+00   # Fd(3)
+         2     2.45882260E-03   # Fu(1)
+         4     8.62132432E-01   # Fu(2)
+         6     1.72699461E+02   # Fu(3)
+        11     5.27940538E-04   # Fe(1)
+        13     1.07086538E-01   # Fe(2)
+        15     1.78253075E+00   # Fe(3)
         22     0.00000000E+00   # VP
         23     9.12568488E+01   # VZ
 Block SMUULMIX

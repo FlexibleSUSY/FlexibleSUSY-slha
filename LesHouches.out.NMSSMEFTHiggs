@@ -1,6 +1,6 @@
 Block SPINFO
      1   FlexibleSUSY
-     2   2.4.2
+     2   2.5.0
      5   NMSSMEFTHiggs
      9   4.14.3
 Block MODSEL                 # Select model
@@ -37,6 +37,7 @@ Block FlexibleSUSY
    28   1                    # Higgs 3-loop corrections O(alpha_t^2 alpha_s)
    29   1                    # Higgs 3-loop corrections O(alpha_t^3)
    30   1                    # Higgs 4-loop corrections O(alpha_t alpha_s^3)
+   31   0                    # loop library (0 = softsusy)
 Block SMINPUTS               # Standard Model inputs
     1   1.279440000e+02      # alpha^(-1) SM MSbar(MZ)
     2   1.166378700e-05      # G_Fermi
@@ -266,7 +267,7 @@ Block IMPhases Q= 2.00000000E+03
      1     0.00000000E+00   # Im(PhaseGlu)
 Block MASS
    1000021     0.00000000E+00   # Glu
-        24     8.04281440E+01   # VWm
+        24     8.04281439E+01   # VWm
    1000024     0.00000000E+00   # Cha(1)
    1000037     0.00000000E+00   # Cha(2)
         37     0.00000000E+00   # Hpm(2)
@@ -523,20 +524,20 @@ Block SMSM Q= 1.73340000E+02
 Block SMHMIX Q= 1.73340000E+02
      3     2.47589415E+02   # v
 Block SMMASS
-        24     8.04585772E+01   # VWp
+        24     8.04585778E+01   # VWp
         21     0.00000000E+00   # VG
         12     0.00000000E+00   # Fv(1)
         14     0.00000000E+00   # Fv(2)
         16     0.00000000E+00   # Fv(3)
         25     9.35741711E+01   # hh
-         1     4.72544651E-03   # Fd(1)
-         3     9.12731334E-02   # Fd(2)
-         5     3.61358167E+00   # Fd(3)
-         2     2.45736968E-03   # Fu(1)
-         4     8.60993336E-01   # Fu(2)
+         1     4.72528488E-03   # Fd(1)
+         3     9.12729806E-02   # Fd(2)
+         5     3.61358195E+00   # Fd(3)
+         2     2.45720493E-03   # Fu(1)
+         4     8.60993269E-01   # Fu(2)
          6     1.72692484E+02   # Fu(3)
-        11     5.27949131E-04   # Fe(1)
-        13     1.07086519E-01   # Fe(2)
+        11     5.27940382E-04   # Fe(1)
+        13     1.07086511E-01   # Fe(2)
         15     1.78253028E+00   # Fe(3)
         22     0.00000000E+00   # VP
         23     9.12522103E+01   # VZ
