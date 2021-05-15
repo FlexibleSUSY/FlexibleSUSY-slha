@@ -2,7 +2,7 @@ Block SPINFO
      1   FlexibleSUSY
      2   2.5.0
      5   HSSUSY
-     9   4.14.3
+     9   4.14.4
 Block MODSEL                 # Select model
 #   12    1000                # DRbar parameter output scale (GeV)
 Block FlexibleSUSY

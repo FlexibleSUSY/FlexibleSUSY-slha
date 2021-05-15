@@ -2,7 +2,7 @@ Block SPINFO
      1   FlexibleSUSY
      2   2.5.0
      5   MSSMEFTHiggs
-     9   4.14.3
+     9   4.14.4
 Block MODSEL                 # Select model
     6   0                    # flavour violation
 Block FlexibleSUSY
@@ -580,8 +580,6 @@ Block FlexibleSUSYOutput Q= 2.00000000E+03
      0     0.00000000E+00   # HighScale
      1     2.00000000E+03   # SUSYScale
      2     9.11876000E+01   # LowScale
-Block FlexibleSUSYLowEnergy Q= 2.00000000E+03
-    21     0.00000000E+00   # Delta(g-2)_muon/2 FlexibleSUSY
 Block ALPHA Q= 2.00000000E+03
            0.00000000E+00   # ArcSin(Pole(ZH(2,2)))
 Block HMIX Q= 2.00000000E+03

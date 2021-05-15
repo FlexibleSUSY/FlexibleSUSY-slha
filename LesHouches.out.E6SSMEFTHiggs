@@ -2,7 +2,7 @@ Block SPINFO
      1   FlexibleSUSY
      2   2.5.0
      5   E6SSMEFTHiggs
-     9   4.14.3
+     9   4.14.4
 Block MODSEL                 # Select model
     6   0                    # flavour violation
 Block FlexibleSUSY
@@ -377,7 +377,7 @@ Block msInert2 Q= 3.00000000E+04
   2  1     0.00000000E+00   # msI2(2,1)
   2  2     9.00000000E+08   # msI2(2,2)
 Block HMIX Q= 3.00000000E+04
-   102     4.73090048E+01   # vd
+   102     4.73090047E+01   # vd
    103     2.36545024E+02   # vu
 Block ESIXRUN Q= 3.00000000E+04
     11     4.24264069E+05   # vs
@@ -946,5 +946,3 @@ Block SMUERMIX
   3  1     0.00000000E+00   # Re(Ue(3,1))
   3  2     0.00000000E+00   # Re(Ue(3,2))
   3  3     1.00000000E+00   # Re(Ue(3,3))
-Block FlexibleSUSYLowEnergy Q= 3.00000000E+04
-    21     0.00000000E+00   # Delta(g-2)_muon/2 FlexibleSUSY

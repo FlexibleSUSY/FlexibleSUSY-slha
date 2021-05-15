@@ -2,7 +2,7 @@ Block SPINFO
      1   FlexibleSUSY
      2   2.5.0
      5   CMSSMNoFV
-     9   4.14.3
+     9   4.14.4
 Block MODSEL                 # Select model
 #   12    1000                # DRbar parameter output scale (GeV)
 Block FlexibleSUSY
@@ -21,7 +21,7 @@ Block FlexibleSUSY
    12   0                    # force output
    13   1                    # Top pole mass QCD corrections (0 = 1L, 1 = 2L, 2 = 3L)
    14   1.000000000e-11      # beta-function zero threshold
-   15   0                    # calculate observables (a_muon, ...)
+   15   1                    # calculate observables (a_muon, ...)
    16   0                    # force positive majorana masses
    17   0                    # pole mass renormalization scale (0 = SUSY scale)
    18   0                    # pole mass renormalization scale in the EFT (0 = min(SUSY scale, Mt))
@@ -79,7 +79,7 @@ Block Yu Q= 8.64095429E+02
   2  3     0.00000000E+00   # Yu(2,3)
   3  1     0.00000000E+00   # Yu(3,1)
   3  2     0.00000000E+00   # Yu(3,2)
-  3  3     8.61518262E-01   # Yu(3,3)
+  3  3     8.61518263E-01   # Yu(3,3)
 Block Yd Q= 8.64095429E+02
   1  1     1.41179563E-04   # Yd(1,1)
   1  2     0.00000000E+00   # Yd(1,2)
@@ -129,9 +129,9 @@ Block Tu Q= 8.64095429E+02
   2  3     0.00000000E+00   # TYu(2,3)
   3  1     0.00000000E+00   # TYu(3,1)
   3  2     0.00000000E+00   # TYu(3,2)
-  3  3    -7.51833110E+02   # TYu(3,3)
+  3  3    -7.51833111E+02   # TYu(3,3)
 Block MSQ2 Q= 8.64095429E+02
-  1  1     1.01282778E+06   # mq2(1,1)
+  1  1     1.01282779E+06   # mq2(1,1)
   1  2     0.00000000E+00   # mq2(1,2)
   1  3     0.00000000E+00   # mq2(1,3)
   2  1     0.00000000E+00   # mq2(2,1)
@@ -139,9 +139,9 @@ Block MSQ2 Q= 8.64095429E+02
   2  3     0.00000000E+00   # mq2(2,3)
   3  1     0.00000000E+00   # mq2(3,1)
   3  2     0.00000000E+00   # mq2(3,2)
-  3  3     8.60852711E+05   # mq2(3,3)
+  3  3     8.60852712E+05   # mq2(3,3)
 Block MSE2 Q= 8.64095429E+02
-  1  1     4.93833699E+04   # me2(1,1)
+  1  1     4.93833700E+04   # me2(1,1)
   1  2     0.00000000E+00   # me2(1,2)
   1  3     0.00000000E+00   # me2(1,3)
   2  1     0.00000000E+00   # me2(2,1)
@@ -161,25 +161,25 @@ Block MSL2 Q= 8.64095429E+02
   3  2     0.00000000E+00   # ml2(3,2)
   3  3     1.24202381E+05   # ml2(3,3)
 Block MSU2 Q= 8.64095429E+02
-  1  1     9.36181340E+05   # mu2(1,1)
+  1  1     9.36181341E+05   # mu2(1,1)
   1  2     0.00000000E+00   # mu2(1,2)
   1  3     0.00000000E+00   # mu2(1,3)
   2  1     0.00000000E+00   # mu2(2,1)
-  2  2     9.36176073E+05   # mu2(2,2)
+  2  2     9.36176074E+05   # mu2(2,2)
   2  3     0.00000000E+00   # mu2(2,3)
   3  1     0.00000000E+00   # mu2(3,1)
   3  2     0.00000000E+00   # mu2(3,2)
-  3  3     6.34725927E+05   # mu2(3,3)
+  3  3     6.34725929E+05   # mu2(3,3)
 Block MSD2 Q= 8.64095429E+02
-  1  1     9.26965651E+05   # md2(1,1)
+  1  1     9.26965652E+05   # md2(1,1)
   1  2     0.00000000E+00   # md2(1,2)
   1  3     0.00000000E+00   # md2(1,3)
   2  1     0.00000000E+00   # md2(2,1)
-  2  2     9.26960491E+05   # md2(2,2)
+  2  2     9.26960493E+05   # md2(2,2)
   2  3     0.00000000E+00   # md2(2,3)
   3  1     0.00000000E+00   # md2(3,1)
   3  2     0.00000000E+00   # md2(3,2)
-  3  3     9.17788000E+05   # md2(3,3)
+  3  3     9.17788002E+05   # md2(3,3)
 Block Phases Q= 8.64095429E+02
      1     1.00000000E+00   # Re(PhaseGlu)
 Block IMPhases Q= 8.64095429E+02
@@ -205,15 +205,15 @@ Block sbotmix
   2  1     2.26400913E-01   # ZB(2,1)
   2  2    -9.74034202E-01   # ZB(2,2)
 Block scharmmix
-  1  1     9.17950475E-03   # ZC(1,1)
+  1  1     9.17950474E-03   # ZC(1,1)
   1  2     9.99957867E-01   # ZC(1,2)
   2  1     9.99957867E-01   # ZC(2,1)
-  2  2    -9.17950475E-03   # ZC(2,2)
+  2  2    -9.17950474E-03   # ZC(2,2)
 Block sdownmix
-  1  1     2.07029893E-04   # ZD(1,1)
+  1  1     2.07029892E-04   # ZD(1,1)
   1  2     9.99999979E-01   # ZD(1,2)
   2  1     9.99999979E-01   # ZD(2,1)
-  2  2    -2.07029893E-04   # ZD(2,2)
+  2  2    -2.07029892E-04   # ZD(2,2)
 Block selemix
   1  1     4.25674027E-05   # ZE(1,1)
   1  2     9.99999999E-01   # ZE(1,2)
@@ -225,16 +225,16 @@ Block SCALARMIX
   2  1     9.94298087E-01   # ZH(2,1)
   2  2    -1.06636365E-01   # ZH(2,2)
 Block smumix
-  1  1     8.80024264E-03   # ZM(1,1)
+  1  1     8.80024263E-03   # ZM(1,1)
   1  2     9.99961277E-01   # ZM(1,2)
   2  1     9.99961277E-01   # ZM(2,1)
-  2  2    -8.80024264E-03   # ZM(2,2)
+  2  2    -8.80024263E-03   # ZM(2,2)
 Block NMIX
   1  1    -9.95676049E-01   # Re(ZN(1,1))
   1  2     1.78807441E-02   # Re(ZN(1,2))
   1  3    -8.41009109E-02   # Re(ZN(1,3))
   1  4     3.51641936E-02   # Re(ZN(1,4))
-  2  1     3.92745495E-02   # Re(ZN(2,1))
+  2  1     3.92745494E-02   # Re(ZN(2,1))
   2  2     9.69095221E-01   # Re(ZN(2,2))
   2  3    -2.02135839E-01   # Re(ZN(2,3))
   2  4     1.35842058E-01   # Re(ZN(2,4))
@@ -252,10 +252,10 @@ Block CHARGEMIX
   2  1     9.95030680E-01   # ZP(2,1)
   2  2     9.95688040E-02   # ZP(2,2)
 Block sstrmix
-  1  1     4.53272919E-03   # ZS(1,1)
+  1  1     4.53272918E-03   # ZS(1,1)
   1  2     9.99989727E-01   # ZS(1,2)
   2  1     9.99989727E-01   # ZS(2,1)
-  2  2    -4.53272919E-03   # ZS(2,2)
+  2  2    -4.53272918E-03   # ZS(2,2)
 Block stopmix
   1  1     4.27990920E-01   # ZT(1,1)
   1  2     9.03783034E-01   # ZT(1,2)
@@ -276,24 +276,24 @@ Block FlexibleSUSYOutput Q= 8.64095429E+02
      1     8.64095429E+02   # SUSYScale
      2     9.11876000E+01   # LowScale
 Block FlexibleSUSYLowEnergy Q= 8.64095429E+02
-     0     0.00000000E+00   # Delta(g-2)_muon/2 FlexibleSUSY
-     1     0.00000000E+00   # Delta(g-2)_muon/2 FlexibleSUSY uncertainty
+     0     8.35412241E-10   # Delta(g-2)_muon/2 FlexibleSUSY
+     1     9.36749301E-12   # Delta(g-2)_muon/2 FlexibleSUSY uncertainty
      2     0.00000000E+00   # Delta(g-2)_muon/2 GM2Calc
      3     0.00000000E+00   # Delta(g-2)_muon/2 GM2Calc uncertainty
 Block EFFHIGGSCOUPLINGS Q= 8.64095429E+02
-       25       22       22     0.00000000E+00   # Abs(effective H-Photon-Photon coupling)
-       35       22       22     0.00000000E+00   # Abs(effective H-Photon-Photon coupling)
-       25       21       21     0.00000000E+00   # Abs(effective H-Gluon-Gluon coupling)
-       35       21       21     0.00000000E+00   # Abs(effective H-Gluon-Gluon coupling)
-       36       22       22     0.00000000E+00   # Abs(effective A-Photon-Photon coupling)
-       36       21       21     0.00000000E+00   # Abs(effective A-Gluon-Gluon coupling)
+       25       22       22     2.96452931E-05   # Abs(effective H-Photon-Photon coupling)
+       35       22       22     1.21565799E-06   # Abs(effective H-Photon-Photon coupling)
+       25       21       21     6.64183453E-05   # Abs(effective H-Gluon-Gluon coupling)
+       35       21       21     5.69564737E-06   # Abs(effective H-Gluon-Gluon coupling)
+       36       22       22     1.35185049E-06   # Abs(effective A-Photon-Photon coupling)
+       36       21       21     6.85944186E-06   # Abs(effective A-Gluon-Gluon coupling)
 Block ALPHA Q= 8.64095429E+02
           -1.06839505E-01   # ArcSin(Pole(ZH(2,2)))
 Block HMIX Q= 8.64095429E+02
      1     6.23252219E+02   # Mu
      2     9.67488340E+00   # vu/vd
      3     2.44131992E+02   # Sqrt(Sqr(vd) + Sqr(vu))
-     4     5.25597776E+05   # Sqr(MAh(2))
+     4     5.25597775E+05   # Sqr(MAh(2))
    101     5.37517560E+04   # BMu
    102     2.50998655E+01   # vd
    103     2.42838272E+02   # vu
@@ -310,7 +310,7 @@ Block Ae Q= 8.64095429E+02
   2  2    -2.99073335E+02   # TYe(2,2)/Ye(2,2)
   3  3    -2.97442626E+02   # TYe(3,3)/Ye(3,3)
 Block MSOFT Q= 8.64095429E+02
-     1     2.09131162E+02   # MassB
+     1     2.09131161E+02   # MassB
      2     3.88000682E+02   # MassWB
      3     1.11395436E+03   # MassG
     21     1.09272357E+05   # mHd2
@@ -318,38 +318,38 @@ Block MSOFT Q= 8.64095429E+02
     31     3.53430103E+02   # SignedAbsSqrt(ml2(1,1))
     32     3.53426545E+02   # SignedAbsSqrt(ml2(2,2))
     33     3.52423582E+02   # SignedAbsSqrt(ml2(3,3))
-    34     2.22223693E+02   # SignedAbsSqrt(me2(1,1))
+    34     2.22223694E+02   # SignedAbsSqrt(me2(1,1))
     35     2.22212145E+02   # SignedAbsSqrt(me2(2,2))
     36     2.18936927E+02   # SignedAbsSqrt(me2(3,3))
     41     1.00639345E+03   # SignedAbsSqrt(mq2(1,1))
     42     1.00639090E+03   # SignedAbsSqrt(mq2(2,2))
-    43     9.27821486E+02   # SignedAbsSqrt(mq2(3,3))
-    44     9.67564644E+02   # SignedAbsSqrt(mu2(1,1))
-    45     9.67561922E+02   # SignedAbsSqrt(mu2(2,2))
-    46     7.96696885E+02   # SignedAbsSqrt(mu2(3,3))
-    47     9.62790554E+02   # SignedAbsSqrt(md2(1,1))
+    43     9.27821487E+02   # SignedAbsSqrt(mq2(3,3))
+    44     9.67564645E+02   # SignedAbsSqrt(mu2(1,1))
+    45     9.67561923E+02   # SignedAbsSqrt(mu2(2,2))
+    46     7.96696886E+02   # SignedAbsSqrt(mu2(3,3))
+    47     9.62790555E+02   # SignedAbsSqrt(md2(1,1))
     48     9.62787875E+02   # SignedAbsSqrt(md2(2,2))
-    49     9.58012526E+02   # SignedAbsSqrt(md2(3,3))
+    49     9.58012527E+02   # SignedAbsSqrt(md2(3,3))
 Block MASS Q= 8.64095429E+02
      6     0.00000000E+00   # Pole(MFt)
     24     8.03633679E+01   # Pole(MVWm)
  1000021     1.14448373E+03   # Pole(MGlu)
  1000012     3.51994597E+02   # Pole(MSveL)
  1000014     3.51990474E+02   # Pole(MSvmL)
- 1000016     3.50828187E+02   # Pole(MSvtL)
+ 1000016     3.50828188E+02   # Pole(MSvtL)
  1000024     3.85004485E+02   # Pole(MCha(1))
  1000037     6.43049850E+02   # Pole(MCha(2))
     25     1.14839211E+02   # Pole(Mhh(1))
     35     7.12107451E+02   # Pole(Mhh(2))
     37     7.16622686E+02   # Pole(MHpm(2))
-    36     7.11836627E+02   # Pole(MAh(2))
+    36     7.11836626E+02   # Pole(MAh(2))
  1000001     1.04317690E+03   # AbsSqr(Pole(ZD(1,1)))*Pole(MSd(1)) + AbsSqr(Pole(ZD(2,1)))*Pole(MSd(2))
- 2000001     9.97562898E+02   # AbsSqr(Pole(ZD(1,2)))*Pole(MSd(1)) + AbsSqr(Pole(ZD(2,2)))*Pole(MSd(2))
+ 2000001     9.97562899E+02   # AbsSqr(Pole(ZD(1,2)))*Pole(MSd(1)) + AbsSqr(Pole(ZD(2,2)))*Pole(MSd(2))
  1000003     1.04317411E+03   # AbsSqr(Pole(ZS(1,1)))*Pole(MSs(1)) + AbsSqr(Pole(ZS(2,1)))*Pole(MSs(2))
  2000003     9.97560051E+02   # AbsSqr(Pole(ZS(1,2)))*Pole(MSs(1)) + AbsSqr(Pole(ZS(2,2)))*Pole(MSs(2))
- 1000005     9.55076097E+02   # Pole(MSb(1))
- 2000005     9.94570431E+02   # Pole(MSb(2))
- 1000011     3.60918123E+02   # AbsSqr(Pole(ZE(1,1)))*Pole(MSe(1)) + AbsSqr(Pole(ZE(2,1)))*Pole(MSe(2))
+ 1000005     9.55076098E+02   # Pole(MSb(1))
+ 2000005     9.94570432E+02   # Pole(MSb(2))
+ 1000011     3.60918124E+02   # AbsSqr(Pole(ZE(1,1)))*Pole(MSe(1)) + AbsSqr(Pole(ZE(2,1)))*Pole(MSe(2))
  2000011     2.30012498E+02   # AbsSqr(Pole(ZE(1,2)))*Pole(MSe(1)) + AbsSqr(Pole(ZE(2,2)))*Pole(MSe(2))
  1000013     3.60912230E+02   # AbsSqr(Pole(ZM(1,1)))*Pole(MSm(1)) + AbsSqr(Pole(ZM(2,1)))*Pole(MSm(2))
  2000013     2.29997520E+02   # AbsSqr(Pole(ZM(1,2)))*Pole(MSm(1)) + AbsSqr(Pole(ZM(2,2)))*Pole(MSm(2))
@@ -361,7 +361,7 @@ Block MASS Q= 8.64095429E+02
  2000004     1.00104456E+03   # AbsSqr(Pole(ZC(1,2)))*Pole(MSc(1)) + AbsSqr(Pole(ZC(2,2)))*Pole(MSc(2))
  1000006     7.93797472E+02   # Pole(MSt(1))
  2000006     1.00083397E+03   # Pole(MSt(2))
- 1000022     2.04035822E+02   # Pole(MChi(1))
+ 1000022     2.04035821E+02   # Pole(MChi(1))
  1000023     3.85000953E+02   # Pole(MChi(2))
  1000025    -6.28721976E+02   # Pole(MChi(3))
  1000035     6.42740465E+02   # Pole(MChi(4))
