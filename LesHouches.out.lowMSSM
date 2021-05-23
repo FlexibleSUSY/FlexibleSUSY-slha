@@ -1,6 +1,6 @@
 Block SPINFO
      1   FlexibleSUSY
-     2   2.5.0
+     2   2.6.0
      5   lowMSSM
      9   4.14.4
 Block FlexibleSUSY
@@ -461,13 +461,6 @@ Block FlexibleSUSYOutput
      0     0.00000000E+00   # HighScale
      1     9.72521438E+02   # SUSYScale
      2     9.11876000E+01   # LowScale
-Block EFFHIGGSCOUPLINGS
-       25       22       22     0.00000000E+00   # Abs(effective H-Photon-Photon coupling)
-       35       22       22     0.00000000E+00   # Abs(effective H-Photon-Photon coupling)
-       25       21       21     0.00000000E+00   # Abs(effective H-Gluon-Gluon coupling)
-       35       21       21     0.00000000E+00   # Abs(effective H-Gluon-Gluon coupling)
-       36       22       22     0.00000000E+00   # Abs(effective A-Photon-Photon coupling)
-       36       21       21     0.00000000E+00   # Abs(effective A-Gluon-Gluon coupling)
 Block ALPHA
           -1.05488913E-01   # ArcSin(Pole(ZH(2,2)))
 Block HMIX Q= 9.72521438E+02

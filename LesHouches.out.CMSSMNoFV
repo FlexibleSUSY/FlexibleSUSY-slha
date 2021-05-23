@@ -1,6 +1,6 @@
 Block SPINFO
      1   FlexibleSUSY
-     2   2.5.0
+     2   2.6.0
      5   CMSSMNoFV
      9   4.14.4
 Block MODSEL                 # Select model
@@ -280,13 +280,6 @@ Block FlexibleSUSYLowEnergy Q= 8.64095429E+02
      1     9.36749301E-12   # Delta(g-2)_muon/2 FlexibleSUSY uncertainty
      2     0.00000000E+00   # Delta(g-2)_muon/2 GM2Calc
      3     0.00000000E+00   # Delta(g-2)_muon/2 GM2Calc uncertainty
-Block EFFHIGGSCOUPLINGS Q= 8.64095429E+02
-       25       22       22     2.96452931E-05   # Abs(effective H-Photon-Photon coupling)
-       35       22       22     1.21565799E-06   # Abs(effective H-Photon-Photon coupling)
-       25       21       21     6.64183453E-05   # Abs(effective H-Gluon-Gluon coupling)
-       35       21       21     5.69564737E-06   # Abs(effective H-Gluon-Gluon coupling)
-       36       22       22     1.35185049E-06   # Abs(effective A-Photon-Photon coupling)
-       36       21       21     6.85944186E-06   # Abs(effective A-Gluon-Gluon coupling)
 Block ALPHA Q= 8.64095429E+02
           -1.06839505E-01   # ArcSin(Pole(ZH(2,2)))
 Block HMIX Q= 8.64095429E+02
