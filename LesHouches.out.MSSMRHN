@@ -1,6 +1,6 @@
 Block SPINFO
      1   FlexibleSUSY
-     2   2.6.0
+     2   2.6.1
      5   MSSMRHN
      9   4.14.5
 Block MODSEL                 # Select model
@@ -599,10 +599,3 @@ Block UVMIX
   6  4     0.00000000E+00   # Re(UV(6,4))
   6  5     0.00000000E+00   # Re(UV(6,5))
   6  6     1.00000000E+00   # Re(UV(6,6))
-Block EFFHIGGSCOUPLINGS
-       25       22       22     0.00000000E+00   # Abs(effective H-Photon-Photon coupling)
-       35       22       22     0.00000000E+00   # Abs(effective H-Photon-Photon coupling)
-       25       21       21     0.00000000E+00   # Abs(effective H-Gluon-Gluon coupling)
-       35       21       21     0.00000000E+00   # Abs(effective H-Gluon-Gluon coupling)
-       36       22       22     0.00000000E+00   # Abs(effective A-Photon-Photon coupling)
-       36       21       21     0.00000000E+00   # Abs(effective A-Gluon-Gluon coupling)
