@@ -1,6 +1,6 @@
 Block SPINFO
      1   FlexibleSUSY
-     2   2.6.1
+     2   2.6.2
      5   CMSSMNoFV
      9   4.14.5
 Block MODSEL                 # Select model
@@ -121,7 +121,7 @@ Block Td Q= 8.64095429E+02
   3  2     0.00000000E+00   # TYd(3,2)
   3  3    -1.72451453E+02   # TYd(3,3)
 Block Tu Q= 8.64095429E+02
-  1  1    -8.28462732E-03   # TYu(1,1)
+  1  1    -8.28462733E-03   # TYu(1,1)
   1  2     0.00000000E+00   # TYu(1,2)
   1  3     0.00000000E+00   # TYu(1,3)
   2  1     0.00000000E+00   # TYu(2,1)
@@ -293,7 +293,7 @@ Block HMIX Q= 8.64095429E+02
 Block Au Q= 8.64095429E+02
   1  1    -1.13042540E+03   # TYu(1,1)/Yu(1,1)
   2  2    -1.13042039E+03   # TYu(2,2)/Yu(2,2)
-  3  3    -8.72683892E+02   # TYu(3,3)/Yu(3,3)
+  3  3    -8.72683893E+02   # TYu(3,3)/Yu(3,3)
 Block Ad Q= 8.64095429E+02
   1  1    -1.38393957E+03   # TYd(1,1)/Yd(1,1)
   2  2    -1.38393492E+03   # TYd(2,2)/Yd(2,2)
@@ -352,7 +352,7 @@ Block MASS Q= 8.64095429E+02
  2000002     1.00104734E+03   # AbsSqr(Pole(ZU(1,2)))*Pole(MSu(1)) + AbsSqr(Pole(ZU(2,2)))*Pole(MSu(2))
  1000004     1.04029628E+03   # AbsSqr(Pole(ZC(1,1)))*Pole(MSc(1)) + AbsSqr(Pole(ZC(2,1)))*Pole(MSc(2))
  2000004     1.00104456E+03   # AbsSqr(Pole(ZC(1,2)))*Pole(MSc(1)) + AbsSqr(Pole(ZC(2,2)))*Pole(MSc(2))
- 1000006     7.93797472E+02   # Pole(MSt(1))
+ 1000006     7.93797473E+02   # Pole(MSt(1))
  2000006     1.00083397E+03   # Pole(MSt(2))
  1000022     2.04035821E+02   # Pole(MChi(1))
  1000023     3.85000953E+02   # Pole(MChi(2))
